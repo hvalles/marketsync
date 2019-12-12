@@ -50,7 +50,7 @@ Respuesta:
 - **id** es el identificador del país.
 - **pais** es el nombre del mismo.
 - **code** es el código de 2 caracteres para el país.
-- **code3** re refiere al código de 3 caracteres para al país.
+- **code3** se refiere al código de 3 caracteres para al país.
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 

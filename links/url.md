@@ -38,3 +38,16 @@ misma que puede ser solicitada en formato formulario o en objeto JSON, dependien
 |limit|Limita la cantidad de registros devueltos en la petición| &limit=50|
 |offset|Ignora la cantidad de registros inicial solicitada al devolver la petición, en un valor offset=250, se ignoraran los primeros 250 renglones.| &offset=250|
 
+#### Ejemplo Categorías
+
+https://sandbox.marketsync.mx/api/categorias?ids=9350
+&timestamp=2019-12-12T10%3A50%3A54.289000
+&token=e889f7ab1ce3f97c7cc64b7fa43e84af
+&version=1.0
+&signature=ad9237253811c54c7c96a171dbce23d12f32a3c062fb778e4feff95041bcc261
+
+En donde :
+- ids hace referencia  a la categoría que deseo explorar
+- timestamp es la fecha y hora de la petición en formato YYYY-MM-DDTHH:mm:ss
+- version es la version de la API 1.0
+- signature es el hash de comprobación

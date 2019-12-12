@@ -66,6 +66,62 @@ Respuesta:
   - **color** color de la variación como referencia.
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
+#### Verbo: PUT /stock
+
+Llamado para actualización del stock de productos
+
+URL:
+```HTTP
+https://sandbox.marketsync.mx/api/stock?timestamp=2019-12-12T10%3A52%3A37.158000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=561d0f88ad80870e55d34d40413e849a11de3afe752f493669e5ad00d9a41265
+```
+
+```python
+import requests
+import utils # Review config.example file and rename it to config.py, do not forget to erase your keys.
+
+items = []
+# Los markets pueden variar consulte la lista de markets disponibles en 
+# /api/markets
+items.append({'product_id':162700, 'seller_sku':'7811X', 'stock':1})
+items.append({'product_id':162700, 'seller_sku':'7911X', 'stock':2}) 
+items.append({'product_id':162700, 'seller_sku':'8011X', 'stock':4})
+items.append({'product_id':162700, 'seller_sku':'8111X', 'stock':5})
+items.append({'product_id':162700, 'seller_sku':'1182X', 'stock':6})
+
+utils.getAnswer(utils.getUrl('stock?'), requests.put, items)
+```
+
+Respuesta:
+```javascript
+
+{
+    "answer": [
+        {
+            "id": "162700",
+            "sku": "78000",
+            "modelo": "FUNDA DE CELULAR",
+            "skus": [
+                {
+                    "seller_sku": "7811X",
+                    "stock": "1",
+                    "teorico": "0",
+                    "color": "Negro"
+                },
+                {
+                    "seller_sku": "7911X",
+                    "stock": "2",
+                    "teorico": "0",
+                    "color": "Negro Azabacje"
+                },
+            ...
+            ]
+        }
+    ],
+    "timestamp": "2019-12-12 22:35:07"
+}
+
+```
+
 
 #### También le puede interesar:
 

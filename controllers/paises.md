@@ -1,5 +1,5 @@
 # Marketsync Documentación de API 
-### Controlador de Colores
+### Controlador de Paises
 
 [Inicio](https://github.com/hvalles/marketsync)  
 [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
@@ -8,13 +8,13 @@ El controlador se utiliza como catálogo general, lo que impica que báscamente 
 
 Las rutas admitidas en este controlador son las siguientes
 
-#### Verbo: GET /colores
+#### Verbo: GET /paises
 
-Listado de colores válidos, estos colores se refieren al color base, para el color comercial no se limita en valores; a excepción de ciertas categoría que arrojaran un conjunto de valores válidos para el caso particular.
+Listado de países válidos, estos países se refieren al país de origen del producto, mismo qeue algunos MarketPlaces solicitan.
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/colores?timestamp=2019-12-12T10%3A52%3A34.193000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=1a7cb61e0167084310dc5a26013c0531445e5275be283aa002a13f18f1890d01
+https://sandbox.marketsync.mx/api/paises?timestamp=2019-12-12T10%3A52%3A34.690000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=5e111544f6d8519780daacf7804b25a9f4d4acb892e7e272b9b4ad1461fc507c
 ```
 
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
@@ -24,24 +24,33 @@ Respuesta:
 {
     "answer": [
         {
-            "id": "3",
-            "color": "AMARILLO"
-        },
-        {
             "id": "4",
-            "color": "AZUL"
+            "pais": "Afghanistan",
+            "code": "AF",
+            "code3": "AFG"
         },
         {
-            "id": "1",
-            "color": "BEIGE"
+            "id": "8",
+            "pais": "Albania",
+            "code": "AL",
+            "code3": "ALB"
         },
+        {
+            "id": "12",
+            "pais": "Algeria",
+            "code": "DZ",
+            "code3": "DZA"
+        },
+        ...
     ],
     "timestamp": "2019-12-12 18:31:50"
 }
 ```
 
-- **id** es el identificador del color.
-- **color** es el nombre del misma
+- **id** es el identificador del país.
+- **pais** es el nombre del mismo.
+- **code** es el código de 2 caracteres para el país.
+- **code3** re refiere al código de 3 caracteres para al país.
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 

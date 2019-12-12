@@ -6,7 +6,7 @@
 
 El controlador se utiliza para visualizar los MarketPlaces vigentes, como para actualizar su participación en los mismos.
 
-Las rutas adminitas en este controlador son las siguientes
+Las rutas admitidas en este controlador son las siguientes
 
 #### Verbo: GET /markets
 

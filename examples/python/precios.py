@@ -1,5 +1,5 @@
 import requests
-import config # Review config.example file and rename it to config.py, do not forget to erase your keys.
+import utils # Review config.example file and rename it to config.py, do not forget to erase your keys.
 
 
 items = []
@@ -10,4 +10,4 @@ items.append({'product_id':162700, 'market_id':4, 'oferta':104, 'precio':204}) #
 items.append({'product_id':162700, 'market_id':5, 'oferta':105, 'precio':205}) # Walmart
 items.append({'product_id':162700, 'market_id':6, 'oferta':106, 'precio':206}) # Amazon
 
-config.getAnswer(config.getUrl('precios?'), requests.put, items)
+utils.getAnswer(utils.getUrl('precios?'), requests.put, items)

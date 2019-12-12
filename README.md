@@ -27,7 +27,7 @@ Entre otras cosas podrás integrar y/o controlar.
   > sumamente difundido en el mercado actual. 
 
 ### Ver a continuación
-- [Servidor de Pruebas](https://github.com/hvalles/marketsync/links/server.md)
-- [Obtención de juego de llaves](https://github.com/hvalles/marketsync/links/keys.md)
-- [Ruta de Recursos](https://github.com/hvalles/marketsync/links/keys.md)
-- [Comandos HTTP](https://github.com/hvalles/marketsync/links/http.md)
+- [Servidor de Pruebas](https://github.com/hvalles/marketsync/blob/master/links/server.md)
+- [Obtención de juego de llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+- [Ruta de Recursos](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+- [Comandos HTTP](https://github.com/hvalles/marketsync/blob/master/links/http.md)

@@ -15,7 +15,7 @@
 ### Las APIs se encuentran divididas en secciones 
 De acuerdo al controlador de cada modelo y se limitan solamente a la funcionalidad expuesta por el diseño, es decir no todos los comandos aplican por cada controlador, usualmente los catálogos generales solamente podrás consultarlos.
 
-[Ver Ruta de Recurso](https://github.com/hvalles/marketsync/links/url.md)
+[Ver Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
 
 #### Lista de comandos aplicables a los controladores
 
@@ -30,3 +30,7 @@ De acuerdo al controlador de cada modelo y se limitan solamente a la funcionalid
 |Productos|Mantenimiento al maestro de productos |:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Stock|Mantenimiento al stock de cada variación |:white_check_mark:|:white_check_mark:|:white_check_mark:|:x:|
 |Usuarios|Catálogo general de usuarios del cliente|:white_check_mark:|:x:|:x:|:x:|
+
+> :information_source: Importante
+> Cualquier petición a un controlador con un verbo no admitido respondera con un error 404:
+> 'Method is not allowed or does not exists.'

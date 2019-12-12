@@ -1,12 +1,12 @@
 # Marketsync Documentación de API 
 ### Controlador de Categorias
 
-[Inicio](https://github.com/hvalles/marketsync)
+[Inicio](https://github.com/hvalles/marketsync)  
 [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
 
-El controlador se utiliza como catálogo general, lo que impica que báscamente su uso sera de lectura.
+El controlador se utiliza como catálogo general, lo que impica que báscamente su uso será de lectura.
 
-Las rutas adminitas en este controlador son las siguientes
+Las rutas admitidas en este controlador son las siguientes
 
 #### Verbo: GET /categorias
 
@@ -45,11 +45,11 @@ Respuesta:
 }
 ```
 
-- id es el identificador de la categoría.
-- categoria es el nombre de la misma
-- ruta se refiere al path completo desde el orgigen hasta el último nivel.
-- filtros, en caso de que aplique se refieren a una subcategoría administrable para ClaroShop.
-- timestamp es la fecha y hora de la respuesta
+- **id** es el identificador de la categoría.
+- **categoria** es el nombre de la misma
+- **ruta** se refiere al path completo desde el orgigen hasta el último nivel.
+- **filtros**, en caso de que aplique se refieren a una subcategoría administrable para ClaroShop.
+- **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 
 #### Verbo: GET /categorias/Atributos
@@ -116,13 +116,21 @@ Respuesta:
 }
 ```
 Devuelve un conjunto de atributos válidos de acuerdo a cada categoría en donde:
-- id: es el identificador del atributo
-- orden es el consecutivo de ordenamiento para el registro
-- atributo identificador explicito del atributo
-- nombre denominación del atributo
-- relecvancia, importancia del mismo relevancia=1 es mandatorio
-- tipo_valor, tipo de valor que se almacena boolean es mandatorio
-- tipo_long_max, en caso de ser string el tipo_valor aplica conmo restricción en longitud
-- variacion, en caso del que el atributo corresponda a una variación (no se admitira como atributo de producto).
-- valores es un listado de valores válidos
-- unidades, en caso de ser un atributo de métricas, establece las unidaded validas que deberan acompañar al valor real, ejemplo en caso de la unidad = "cm" el valor esperado es un numero + espacio + unidad es decir "10 cm"
+- **id**: es el identificador del atributo
+- **orden** es el consecutivo de ordenamiento para el registro
+- **atributo** identificador explicito del atributo
+- **nombre** denominación del atributo
+- **relevancia**, importancia del mismo relevancia=1 es mandatorio
+- **tipo_valor**, tipo de valor que se almacena boolean es mandatorio
+- **tipo_long_max**, en caso de ser string el tipo_valor aplica conmo restricción en longitud
+- **variacion**, en caso del que el atributo corresponda a una variación (no se admitira como atributo de producto).
+- **valores** es un listado de valores válidos
+- **unidades**, en caso de ser un atributo de métricas, establece las unidaded validas que deberan acompañar al valor real, ejemplo en caso de la unidad = "cm" el valor esperado es un numero + espacio + unidad es decir "10 cm"
+
+
+#### También le puede interesar:
+
+- [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
+- [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
+- [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+

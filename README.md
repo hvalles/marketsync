@@ -21,24 +21,13 @@ Entre otras cosas podrás integrar y/o controlar.
 - Pedidos
   
 
+### Importante
   > Aunque existen varios mecanismos para la integración de APIS, hemos optado por utilizar [REST Representational State Transfer]
   > (https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional), ya que lo consideramos dinámico y flexible, así como 
   > sumamente difundido en el mercado actual. 
 
-  ### Los comandos http utilizados en el consumo del API se describen a continuación
-
-  |Comando | Uso | Significado |
-  |------- | --- | ----------- 
-  |GET |Obtener Listados|Consultas a la base de datos del cliente correspondiente o de catálogos generales|
-  |POST|Insertar registros|Agregar información a la base de datos, correspondiente al cliente|
-  |PUT|Actualizar registros|Actualizar información existente, a la base de datos correspondiente al cliente|
-  |DELETE|Eliminar Registros|Remover registros de la base de datos perteneciente al cliente|
-
-  ### Las APIs se encuentran divididas en secciones 
-  De acuerdo al controlador de cada modelo y se limitan solamente a la funcionalidad expuesta por el diseño, es decir no todos los comandos aplican por cada controlador, usualmente los catálogos generales solamente podrás consultarlos.
-
-  #### Lista de comandos aplicables a los controladores
-
-  |Controlador|Descripción|GET|POST|PUT|DELETE|
-  |-----------|-----------|---|----|---|------|
-  |Categorias|Catálogo general de las categorías habilitadas|:white_check_mark:|:x:|:x:|:x:|
+### Ver a continuación
+- [Servidor de Pruebas](https://github.com/hvalles/marketsync/links/server.md)
+- [Obtención de juego de llaves](https://github.com/hvalles/marketsync/links/keys.md)
+- [Ruta de Recursos](https://github.com/hvalles/marketsync/links/keys.md)
+- [Comandos HTTP](https://github.com/hvalles/marketsync/links/http.md)

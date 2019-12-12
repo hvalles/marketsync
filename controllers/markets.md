@@ -17,7 +17,7 @@ URL:
 https://sandbox.marketsync.mx/api/markets?timestamp=2019-12-12T10%3A52%3A33.195000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=e48273e6a215eb5afda5ea52919e698fadf90691df5a1090f90f578e279dae32
 ```
 
-[Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
+[:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
 
 Respuesta:
 ```javascript

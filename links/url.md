@@ -7,17 +7,17 @@
 
 Para el fin de esta documentación los vínculos se direccionaran al servidor de pruebas; mismo que se limpia todos los días, una vez que hayas concluido su implementación podrá solicitar la ruta correspondiente al servidor de producción.
 
-Las llamadas se direccionaran de acuerdo al controlador con el siguiente format:
+Las llamadas se direccionaran de acuerdo al controlador con el siguiente formato:
 
 https://{servidor}/api/{controlador}/[{seccion}]?{token=ahyjnd}&{parametros}&{signature=ahj45d..}
 
-- https:// Es el protocolo SSL de la llamda no se admitira http
+- https:// Es el protocolo SSL de la llamda no admitirá http
 - {servidor} Para efectos de esta documentación aplicará https://sandbox.marketsync.mx
 - {controlador} El controlador sobre el que desea se aplique el verbo correspondiente http.
 - [ {seccion} ] opcional en caso de que el controlador admita una sección adicional
 - {parámetros} Es el listado de parametros en formato GET [ ?param1=1&param2=2 ], que acompañan la petición
 - {token} Se refiere a la llave pública que identifica al consumidor y al cliente con el que se le relaciona.
-- {signature} Es la encriptación que identifica que la petición es válida
+- {signature} Es la encriptación que identifica que la petición es reconocida y válida
 
 Para los comandos GET esta sería toda la información necesaria, pero para POST y PUT, se requiweren información adicional,
 misma que puede ser solicitada en formato formulario o en objeto JSON, dependiendo la integración.

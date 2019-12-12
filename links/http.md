@@ -22,3 +22,11 @@ De acuerdo al controlador de cada modelo y se limitan solamente a la funcionalid
 |Controlador|Descripción|GET|POST|PUT|DELETE|
 |-----------|-----------|---|----|---|------|
 |Categorias|Catálogo general de las categorías habilitadas|:white_check_mark:|:x:|:x:|:x:|
+|Colores|Catálogo general de colores válidos|:white_check_mark:|:x:|:x:|:x:|
+|Markets|Catálogo general de Marketplaces activos|:white_check_mark:|:x:|:white_check_mark:|:x:|
+|Paises|Catálogo general de países admitidos|:white_check_mark:|:x:|:x:|:x:|
+|Pedidos|Entrada de Pedidos por MarketPlace |:white_check_mark:|:white_check_mark:|:white_check_mark:|:x:|
+|Precios|Precios por producto por MarketPlace |:white_check_mark:|:x:|:white_check_mark:|:x:|
+|Productos|Mantenimiento al maestro de productos |:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Stock|Mantenimiento al stock de cada variación |:white_check_mark:|:white_check_mark:|:white_check_mark:|:x:|
+|Usuarios|Catálogo general de usuarios del cliente|:white_check_mark:|:x:|:x:|:x:|

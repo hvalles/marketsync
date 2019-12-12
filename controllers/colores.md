@@ -17,7 +17,7 @@ URL:
 https://sandbox.marketsync.mx/api/colores?timestamp=2019-12-12T10%3A52%3A34.193000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=1a7cb61e0167084310dc5a26013c0531445e5275be283aa002a13f18f1890d01
 ```
 
-[Puede ver la composición del URL en el siguiente enlace.] (https://github.com/hvalles/marketsync/blob/master/links/url.md)
+[Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
 
 Respuesta:
 ```javascript

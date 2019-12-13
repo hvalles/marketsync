@@ -15,7 +15,7 @@ puede utilizar el párametro limit=N en conjunto con el parámetro offset, de no
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/categorias?ids=9350&timestamp=2019-12-12T10%3A50%3A54.289000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=ad9237253811c54c7c96a171dbce23d12f32a3c062fb778e4feff95041bcc261
+https://sandbox.marketsync.mx/api/categorias?ids=9350&timestamp=2019-12-12T10%3A50%3A54.289000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=ad9237253811c54c7c96a171dbce23d12f32a3c062fb778e4feff95041bcc261
 ```
 Respuesta:
 ```javascript
@@ -58,7 +58,7 @@ Listado de categorias vigentes, de forma predeterminada el portal limita a 250 r
 puede utilizar el párametro limit=N en conjunto con el parámetro offset, de no especificarse offset el valor será 0.
 
 ```http
-http://localhost:5000/api/categorias/atributos/7416?timestamp=2019-12-12T10%3A52%3A32.695000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=cdfc5539070628532c593f66942ac540d64aa6df1361f0f879e2600d7c39d307
+http://localhost:5000/api/categorias/atributos/7416?timestamp=2019-12-12T10%3A52%3A32.695000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=cdfc5539070628532c593f66942ac540d64aa6df1361f0f879e2600d7c39d307
 ```
 Respuesta:
 ```javascript

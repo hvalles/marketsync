@@ -42,7 +42,7 @@ misma que puede ser solicitada en formato formulario o en objeto JSON, dependien
 
 https://sandbox.marketsync.mx/api/categorias?ids=9350  
 &timestamp=2019-12-12T10%3A50%3A54.289000  
-&token=e889f7ab1ce3f97c7cc64b7fa43e84af  
+&token=r559f7ab1cr3f97c7cc64b7fa43r54af  
 &version=1.0  
 &signature=ad9237253811c54c7c96a171dbce23d12f32a3c062fb778e4feff95041bcc261
 

@@ -17,7 +17,7 @@ Listado de existencias de variaciones, mismos que puede ser filtrado por ids,sku
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/stock?ids=162700&timestamp=2019-12-12T10%3A52%3A36.686000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=54a98aea2667c308ef086195b6d2c9d0ea71efa292071e6399e91bddd0b0144c
+https://sandbox.marketsync.mx/api/stock?ids=162700&timestamp=2019-12-12T10%3A52%3A36.686000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=54a98aea2667c308ef086195b6d2c9d0ea71efa292071e6399e91bddd0b0144c
 ```
 
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
@@ -72,7 +72,7 @@ Llamado para actualización del stock de productos
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/stock?timestamp=2019-12-12T10%3A52%3A37.158000&token=e889f7ab1ce3f97c7cc64b7fa43e84af&version=1.0&signature=561d0f88ad80870e55d34d40413e849a11de3afe752f493669e5ad00d9a41265
+https://sandbox.marketsync.mx/api/stock?timestamp=2019-12-12T10%3A52%3A37.158000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=561d0f88ad80870e55d34d40413e849a11de3afe752f493669e5ad00d9a41265
 ```
 
 ```python

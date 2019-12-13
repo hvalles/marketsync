@@ -201,11 +201,50 @@ Respuesta:
     - **atributo** clave del atributo
     - **nombre** nombre del atributo
     - **valor** valor del atributo
-
-
-
-
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
+
+#### Verbo: POST /productos
+
+Se utiliza en la creación de nuevos productos
+
+[Ver ejemplo en python](../examples/python/productos.py)
+
+#### Tabla Definición de Columnas
+
+|columna|tipo|mandatorio|descripcion|
+|-------|----|----------|-----------|
+|nombre|string(120)|:heavy_check_mark:|Nombre del producto asegurese de que los primeros 60 caracteres describan adecuadamente al producto|
+|descripcion|string(250)|:heavy_check_mark:|Resumen de la ficha técnica del producto, algunos markets la reflejan|
+|ficha|string(5000)|:heavy_check_mark:|Ficha técnica detallada del producto, asegúrese de que los primeros 1500 carácteres reflejen la información necesaria, alguns markets limitan la longitud de la misma|
+|alto|integer|:heavy_check_mark:|Altura del producto en centímetros|
+|ancho|integer|:heavy_check_mark:|Ancho del producto en centímetros|
+|largo|integer|:heavy_check_mark:|Largo  del producto en centímetros|
+|peso|integer|:heavy_check_mark:|Peso del producto en kilogramos|
+|sku|string(18)|:heavy_check_mark:|Parent Sku del producto procure que tenga entre 5 y 18 caracteres de longitud y es un identificador único, por lo mismo no admite actualizaciones.|
+|dias_embarque|integer|:heavy_check_mark:|Días de preparación del producto|
+|categoria_id|integer|:heavy_check_mark:|Identificador de la categoría Revise el controlador de categorías para amyor información|
+|filtro_id|integer||Identificador del filtro como subcategoría, depende de la categoría|
+|marca|string(50)|:heavy_check_mark:|Nombre de la marca|
+|etiquetas|string(200)|:heavy_check_mark:|Términos de búsqueda para el producto|
+|modelo|string(30)|:heavy_check_mark:|Número de modelo|
+|listing_type_id|string(50)|:heavy_check_mark:|Son de Mercado Libre y afecta el % de comisión [bronze, silver, gold_pro, gold_premium, gold_special, gold](https://developers.mercadolibre.com.mx/es_ar/tipos-de-publicacion-y-actualizaciones-de-articulos) |
+|warranty|string(50)||Garantía del producto|
+|nombre_modelo|string(50)||Nombre comercial del modelo|
+|origen|integer|:heavy_check_mark:|País de origen, vea el controlador Paises para mayor información|
+|color|string(50)|:heavy_check_mark:|Color comercial del producto|
+|base|string(50)|:heavy_check_mark:|Color base del producto, vea el controlador de Colores para mayor información|
+|palto|integer|:heavy_check_mark:|Altura del paquete en centímetros|
+|pancho|integer|:heavy_check_mark:|Ancho del paquete en centímetros|
+|plargo|integer|:heavy_check_mark:|Largo del paquete en centímetros|
+|ppeso|integer|:heavy_check_mark:|Peso del paquete en kilogramos|
+|date_created|DateTime|:heavy_check_mark:|Fecha en la que el producto se comercializa, aparece en algunos markets|
+|atributos|Array|:heavy_check_mark:|Mandatorio en caso de llevar categoría, son los atributos de producto de acuerdo a la categoría, vea controlador Categoria/Atributos para mayor información|
+|atributo.atributo_id|string(50)|:heavy_check_mark:|Identificador clave del atributo|
+|atributo.valor|string(50)|:heavy_check_mark:|Valor correspondiente al atributo del producto|
+
+> ℹ️ :information_source: Importante
+> El listado de atributos es de acuerdo a la categoría, en caso de que el atributo sea considerado como una variación, no deberá incluirlo en este segmento, dado que existe un controlador para las variaciones en donde si aplicaría.
+
 
 #### También le puede interesar:
 

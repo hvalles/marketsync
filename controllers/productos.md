@@ -252,8 +252,31 @@ Se utiliza en la creación de nuevos productos
 
 #### Verbo: PUT /productos
 
-Actualización del catálogo, el esquema y las columnas son las mismas con algunas restricciones, a excepción del identificador de producto product_id integer, y el sku, el resto de las columnas puede ser modificada.
+Actualización del catálogo, el esquema y las columnas son las mismas con algunas restricciones, a excepción del identificador de producto product_id integer, y el sku, el resto de las columnas debe ser vsalidada para ser modificada.
 Solamente debe de incluir las columnas que sufrirán alguna alteración, las que se mantienen no tienen porque incluirlas.
+
+Columnas aptas para actualización.
+
+1. nombre
+2. descripcion
+3. ficha
+4. alto
+5. largo
+6. ancho
+7. peso
+8. dias_embarque
+9. marca
+10. etiquetas
+11. modelo
+12. warranty
+13. nombre_modelo
+14. origen
+15. palto
+16. plargo
+17. pancho
+18. ppeso
+19. date_created
+20. atributos
 
 La respuesta serás similar a una consulta get con las columnas actualizadas.
 
@@ -266,6 +289,10 @@ o se emitirá un error al intentar ejercer la acción.
 
 [Ver ejemplo en python](../examples/python/productos.py)
 
+Respuesta:
+```javascript
+    {"answer":{"result":"Item(s) removed."},"timestamp":"2019-12-13 22:18:37"}
+```
 
 #### También le puede interesar:
 

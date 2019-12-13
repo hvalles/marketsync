@@ -25,18 +25,13 @@ def getUrl(url):
 
 def getAnswer(url, accion, data=None):
     print url
-    print json.dumps(data)
     if data:
+        print json.dumps(data)
         r = accion(url, data=json.dumps(data))
     else:
         r = accion(url)
     try:
-        for x in r.json().get('answer',[]):
-            if x.get('result', None):
-                print x.get('result', None) 
-            else:
-                print x
-            print "-----------------"
+        print r.json()
     except:
         print r.text
 

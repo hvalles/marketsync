@@ -6,12 +6,14 @@ import json
 import requests
 import config
 
-
-# Get users test
 parameters = {}
-parameters['token'] = config.TOKEN
-parameters['timestamp'] = str(datetime.now().isoformat())
-parameters['version'] = '1.0'
+
+def init():
+    global parameters
+    parameters = {}
+    parameters['token'] = config.TOKEN
+    parameters['timestamp'] = str(datetime.now().isoformat())
+    parameters['version'] = '1.0'
 
 def Signature(concatenated):  
     sign = HMAC(config.PRIVATE_KEY, concatenated, hashlib.sha256).hexdigest()
@@ -37,3 +39,6 @@ def getAnswer(url, accion, data=None):
             print "-----------------"
     except:
         print r.text
+
+# Initialize Prameters
+init()

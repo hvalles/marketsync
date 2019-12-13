@@ -440,7 +440,7 @@ Respuesta:
 ```
 
 - **id** es el identificador del producto.
-- **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
+****- **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 
 

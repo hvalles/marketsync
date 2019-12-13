@@ -15,6 +15,7 @@ Los controladores son las rutas que permiten el acceso al consumo de la API y/o 
 6. [Precios](https://github.com/hvalles/marketsync/blob/master/controllers/precios.md)
 7. [Productos](https://github.com/hvalles/marketsync/blob/master/controllers/productos.md)
 8. [Stock](https://github.com/hvalles/marketsync/blob/master/controllers/stock.md)
+9. [Publicar](https://github.com/hvalles/marketsync/blob/master/controllers/publicar.md)
 
 #### También le puede interesar:
 

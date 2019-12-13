@@ -459,6 +459,38 @@ Respuesta:
 - **etiquetas** etiquetas de búsqueda
 - **modelo**
 - **fecha**, fecha de actualización del producto
+- **origen** identificador del pais de origen (consulte el controlador de Paises para más información)
+- **warranty** garantía del producto
+- **listing_type_id** Tipo de listado [bronze, silver, gold_pro, gold_premium, gold_special, gold]
+- **p_condition** inveriablemente todos los productos serán nuevos.
+- **nombre_modelo** en caso de existir un nombre comercial al modelo
+- **palto** altura del paquete en centímetros
+- **pancho** ancho del paquete en centímetros
+- **plargo** largo del paquete en centímetros
+- **ppeso** peso del paquete en kilogramos.
+- **color** color comercial del producto 
+- **base** color base del producto, (consulte el controlador Colores para mayor información)
+- **variaciones** Conjunto de variaciones del producto
+    - **id** identificador de la variación
+    - **sku** seller sku, de la variación
+    - **stock** existencia del producto
+    - **base** color base de la variación
+    - **color** color comercial de la variación
+    - **teorico** inventario teórico después de descontar ventas y protección
+    - **imagen** conjunto de imagenes de la variación
+        - **id** identificador del recurso
+        - **sku_cte** sku de la variación
+        - **orden** orden de depliegue del recurso
+        - **recurso_id** tipo de recurso 1=imagen
+        - **url** url del recurso, MarketSync no almacena las imágenes, por lo que los recursos deben de estar vigentes, no duplicados y medir más de 200px y menos de 2000px.
+        - **fecha** fecha de registro del recurso
+    - **bullet** Es un conjunto de recursos (1-5) que utilizan el mismo esquema que las imagenes pero con identificadores 101-105 y recurso_id=4, ademas en lugar de una URL el valor es una cadena descriptiva como punto a resaltar del producto.
+    - **video** Es un recurso (1) que utilizan el mismo esquema que las imagenes pero con identificador 99 y recurso_id=2.
+    - **atributos** conjunto de atributos particulares de la variación
+      - **id** identificador del registro
+      - **atributo** clave del atributo
+      - **nombre** nombre del atributo
+      - **valor** valor del atributo
 - **precios** conjunto de precios por MarketPlace
     - **id** Identificador del MarketPlace
     - **market** Nombre del ]MarketPlace
@@ -472,6 +504,14 @@ Respuesta:
     -**referencia** Información adicional del registro
     - **activo** estado actual de la publicación
     - **fecha** fecha en la que se registro el producto
+- **atributos** conjunto de atributos específicos de la categoría para el producto
+    - **id** identificador del registro
+    - **atributo** clave del atributo
+    - **nombre** nombre del atributo
+    - **valor** valor del atributo
+
+
+
 
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 

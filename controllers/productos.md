@@ -135,7 +135,7 @@ Respuesta:
                     "id": "558964",
                     "atributo": "BRAND",
                     "nombre": "Marca",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "BRAND",
                     "valor": "New Wave",
                     "up2date": "0"
@@ -144,7 +144,7 @@ Respuesta:
                     "id": "558965",
                     "atributo": "LINE",
                     "nombre": "LÃ­nea",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "LINE",
                     "valor": "Radios 2 Vias",
                     "up2date": "0"
@@ -153,7 +153,7 @@ Respuesta:
                     "id": "558966",
                     "atributo": "MODEL",
                     "nombre": "Modelo",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "MODEL",
                     "valor": "T-8000",
                     "up2date": "0"
@@ -162,7 +162,7 @@ Respuesta:
                     "id": "558967",
                     "atributo": "FREQUENCY_TYPE",
                     "nombre": "Tipo de frecuencia",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "FREQUENCY_TYPE",
                     "valor": "400-470mhz",
                     "up2date": "0"
@@ -171,7 +171,7 @@ Respuesta:
                     "id": "558969",
                     "atributo": "NUMBER_OF_RADIOS",
                     "nombre": "Cantidad de radios",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "NUMBER_OF_RADIOS",
                     "valor": "1",
                     "up2date": "0"
@@ -180,7 +180,7 @@ Respuesta:
                     "id": "558971",
                     "atributo": "RANGE",
                     "nombre": "Alcance",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "RANGE",
                     "valor": "5 km",
                     "up2date": "0"
@@ -189,7 +189,7 @@ Respuesta:
                     "id": "558972",
                     "atributo": "MIN_FREQUENCY",
                     "nombre": "Frecuencia mi­nima",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "MIN_FREQUENCY",
                     "valor": "400 MHz",
                     "up2date": "0"
@@ -198,7 +198,7 @@ Respuesta:
                     "id": "558973",
                     "atributo": "MAX_FREQUENCY",
                     "nombre": "Frecuencia maxima",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "MAX_FREQUENCY",
                     "valor": "470 MHz",
                     "up2date": "0"
@@ -207,7 +207,7 @@ Respuesta:
                     "id": "558974",
                     "atributo": "GTIN",
                     "nombre": "Codigo universal de producto",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "GTIN",
                     "valor": "N/A",
                     "up2date": "0"
@@ -216,7 +216,7 @@ Respuesta:
                     "id": "558978",
                     "atributo": "POWER",
                     "nombre": "Potencia",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "POWER",
                     "valor": "5 W",
                     "up2date": "0"
@@ -224,8 +224,8 @@ Respuesta:
                 {
                     "id": "558979",
                     "atributo": "VOX_FUNCTION",
-                    "nombre": "Con funciÃ³n vox",
-                    "product_id": "162582",
+                    "nombre": "Con función vox",
+                    "product_id": "1462582",
                     "atributo_id": "VOX_FUNCTION",
                     "valor": "SÃ­",
                     "up2date": "0"
@@ -233,8 +233,8 @@ Respuesta:
                 {
                     "id": "558982",
                     "atributo": "BATTERY_CAPACITY",
-                    "nombre": "Capacidad de la baterÃ­a",
-                    "product_id": "162582",
+                    "nombre": "Capacidad de la baterí­a",
+                    "product_id": "1462582",
                     "atributo_id": "BATTERY_CAPACITY",
                     "valor": "1500 mAh",
                     "up2date": "0"
@@ -242,8 +242,8 @@ Respuesta:
                 {
                     "id": "558983",
                     "atributo": "BATTERY_LIFE",
-                    "nombre": "DuraciÃ³n de la baterÃ­a",
-                    "product_id": "162582",
+                    "nombre": "Duración de la baterí­a",
+                    "product_id": "1462582",
                     "atributo_id": "BATTERY_LIFE",
                     "valor": "8 h",
                     "up2date": "0"
@@ -252,7 +252,7 @@ Respuesta:
                     "id": "558984",
                     "atributo": "ITEM_CONDITION",
                     "nombre": "Condicion del I­tem",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "ITEM_CONDITION",
                     "valor": "Nuevo",
                     "up2date": "0"
@@ -261,7 +261,7 @@ Respuesta:
                     "id": "558988",
                     "atributo": "SELLER_SKU",
                     "nombre": "SKU",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "SELLER_SKU",
                     "valor": "8811X",
                     "up2date": "0"
@@ -270,7 +270,7 @@ Respuesta:
                     "id": "558992",
                     "atributo": "PACKAGE_LENGTH",
                     "nombre": "Largo del paquete",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "PACKAGE_LENGTH",
                     "valor": "19.5 cm",
                     "up2date": "0"
@@ -279,7 +279,7 @@ Respuesta:
                     "id": "558993",
                     "atributo": "PACKAGE_WEIGHT",
                     "nombre": "Peso del paquete",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "PACKAGE_WEIGHT",
                     "valor": "75 g",
                     "up2date": "0"
@@ -288,7 +288,7 @@ Respuesta:
                     "id": "558994",
                     "atributo": "PACKAGE_WIDTH",
                     "nombre": "Ancho del paquete",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "PACKAGE_WIDTH",
                     "valor": "18 cm",
                     "up2date": "0"
@@ -297,7 +297,7 @@ Respuesta:
                     "id": "558995",
                     "atributo": "PACKAGE_HEIGHT",
                     "nombre": "Altura del paquete",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "atributo_id": "PACKAGE_HEIGHT",
                     "valor": "10.5 cm",
                     "up2date": "0"
@@ -319,7 +319,7 @@ Respuesta:
                     "id": "5020",
                     "cliente_id": "1005",
                     "sku": "8811X",
-                    "product_id": "162582",
+                    "product_id": "1462582",
                     "stock": "0",
                     "base": "",
                     "color": "",
@@ -339,7 +339,7 @@ Respuesta:
                             "id": "1447206",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "2",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -349,7 +349,7 @@ Respuesta:
                             "id": "1447207",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "3",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -359,7 +359,7 @@ Respuesta:
                             "id": "1447208",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "4",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -369,7 +369,7 @@ Respuesta:
                             "id": "1447209",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "5",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -379,7 +379,7 @@ Respuesta:
                             "id": "1447210",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "6",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -389,7 +389,7 @@ Respuesta:
                             "id": "1447211",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "7",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -399,7 +399,7 @@ Respuesta:
                             "id": "1447212",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "8",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -409,7 +409,7 @@ Respuesta:
                             "id": "1447213",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "9",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -419,7 +419,7 @@ Respuesta:
                             "id": "1447214",
                             "cliente_id": "1005",
                             "sku_cte": "8811X",
-                            "product_id": "162582",
+                            "product_id": "1462582",
                             "orden": "10",
                             "recurso_id": "1",
                             "url": "http://mlm-s1-p.mlstatic.com/",
@@ -440,9 +440,40 @@ Respuesta:
 ```
 
 - **id** es el identificador del producto.
-****- **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
+- **cliente_id** identificsador interno de la empresa.
+- **nombre** nombre del producto
+- **descripcion**, descripcion del producto
+- **ficha** ficha técnica del producto
+- **alto** alto en centímetros del producto
+- **ancho** ancho del producto en centímetros
+- **largo** largo del producto en centímetros
+- **peso** peso del producto en kilogramos
+- **sku** Parent Sku del producto.
+- **dias_embarque** días de preparación para envío del producto.
+- **categoria** ruta completo de categoría
+- **filtro** subcategoría para uso exclusivo de ClaroShop
+- **marca** nombre marca del producto
+- **categoria_id** identificador interno de la categoría
+- **filtro_id** identificador del filtro
+- **marca_id** identificador interno de marca
+- **etiquetas** etiquetas de búsqueda
+- **modelo**
+- **fecha**, fecha de actualización del producto
+- **precios** conjunto de precios por MarketPlace
+    - **id** Identificador del MarketPlace
+    - **market** Nombre del ]MarketPlace
+    - **precio** precio de lista (debe incluir impuestos)
+    - **oferta** precio de venta (debe incluir impuestos)
+    - **estado** estado del prducto en el Market [publicar, suspender, agotar]
+- **markets** especificaciones de cada MarketPlace
+    - **market_id** identificador del MarketPlace
+    - **market**    nombre del MarketPlace
+    - **market_sku** Sku con el que se registro en el MarketPlace
+    -**referencia** Información adicional del registro
+    - **activo** estado actual de la publicación
+    - **fecha** fecha en la que se registro el producto
 
-
+- **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 #### También le puede interesar:
 

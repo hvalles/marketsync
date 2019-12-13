@@ -242,8 +242,29 @@ Se utiliza en la creación de nuevos productos
 |atributo.atributo_id|string(50)|:heavy_check_mark:|Identificador clave del atributo|
 |atributo.valor|string(50)|:heavy_check_mark:|Valor correspondiente al atributo del producto|
 
-> ℹ️ :information_source: Importante
+
+> :information_source: Importante
 > El listado de atributos es de acuerdo a la categoría, en caso de que el atributo sea considerado como una variación, no deberá incluirlo en este segmento, dado que existe un controlador para las variaciones en donde si aplicaría.
+
+
+> :information_source: Importante
+> El color y la base a este nivel se mantienen por compatibilidad, pero cada variación debe de aportar la información correspondiente.
+
+#### Verbo: PUT /productos
+
+Actualización del catálogo, el esquema y las columnas son las mismas con algunas restricciones, a excepción del identificador de producto product_id integer, y el sku, el resto de las columnas puede ser modificada.
+Solamente debe de incluir las columnas que sufrirán alguna alteración, las que se mantienen no tienen porque incluirlas.
+
+La respuesta serás similar a una consulta get con las columnas actualizadas.
+
+[Ver ejemplo en python](../examples/python/productos.py)
+
+#### Verbo: DELETE /productos
+
+Se utiliza para la eliminacion de registro, la restricción es que el producto no haya sido  publicado en algún MarketPlace
+o se emitirá un error al intentar ejercer la acción.
+
+[Ver ejemplo en python](../examples/python/productos.py)
 
 
 #### También le puede interesar:

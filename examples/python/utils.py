@@ -30,6 +30,8 @@ def getAnswer(url, accion, data=None):
         r = accion(url, data=json.dumps(data))
     else:
         r = accion(url)
+
+    print "--------------------------------"
     try:
         print r.json()
     except:

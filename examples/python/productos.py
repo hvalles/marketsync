@@ -56,8 +56,33 @@ items = [p]
 utils.getAnswer(utils.getUrl('productos?'), requests.post, items)
 
 
+############### Actualización de Productos PUT
+utils.init()
 
-############### Eliminación de Productos
+p={}
+p['product_id'] = 163766
+p['nombre'] = "Test product for API Guide"
+p['descripcion'] = "This is a test for add items from API to Marketsync products"
+p['ficha'] = """
+Alta de la ficha t&eacute;cnica
+-----------------------------------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+p['palto'] = 11 # Centimeters height
+p['pancho'] = 11 # Centimeters width
+p['plargo'] = 22 # Centimeters deep
+p['ppeso'] = 1.2 # Kilograms deep
+
+atributos = []
+atributos.append({'atributo' : 'BRAND',           'valor' : 'New Waves'})
+p['atributos'] = atributos
+items = [p]
+
+utils.getAnswer(utils.getUrl('productos?'), requests.put, items)
+
+############### Eliminación de Productos DELETE
 # utils.init()
 # items = []
 # items.append({'product_id':0}) # your id here

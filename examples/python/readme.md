@@ -1,13 +1,13 @@
 Readme.md
 
-### Documentacion aPI de Marketsync
+### Documentacion API de Marketsync
 
 El esquema de esta API se basa en controladores y verbos http.
 
 La seccion de [controladores](../../controllers) te brinda la documentación de las secciones disponibles así como ejemplos de su utilización.
 
 >:information_source: Importante
->Debe de configurar sus credenciales en un nuevo archivo denominado config.py
+>Debe de configurar sus credenciales en un nuevo archivo denominado config.py  
 >Se agrega el config.example como una base de lo que debe realizar para configurar sus credenciales.
 
 

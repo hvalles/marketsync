@@ -27,11 +27,14 @@ def getAnswer(url, accion, data=None):
     print url
     if data:
         print json.dumps(data)
-        r = accion(url, data=json.dumps(data))
+        if type(data) is dict:
+            r = accion(url, data=data)
+        else:
+            r = accion(url, data=json.dumps(data))
     else:
         r = accion(url)
 
-    print "--------------------------------"
+    print "******************************************"
     try:
         print r.json()
     except:

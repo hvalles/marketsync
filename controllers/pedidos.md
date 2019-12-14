@@ -74,9 +74,7 @@ Respuesta:
 ```
 #### Pedido
 - **id** Identificador del pedido
-- **cliente_id** Número interno del cliente
-- **market_id** Identificador del MarketPlace
-- **referencia** Nímero de pedido en el market.
+- **referencia** Número de pedido en el market.
 - **fecha_pedido**
 - **fecha_autoriza**
 - **subtotal**
@@ -118,6 +116,48 @@ Respuesta:
 
 #### Verbo: POST /pedidos
 
+Se utiliza en la creación de nuevos pedidos, en MarketPlace WEB
+
+[Ver ejemplo en python](../examples/python/pedidos.py)
+
+#### Tabla Definición de Columnas
+
+|columna|tipo|mandatorio|descripcion|
+|-------|----|----------|-----------|
+|**referencia**|string(30)|:heavy_check_mark:|Número de pedido en el market.|
+|**fecha_pedido**|datetime|:heavy_check_mark:|Fecha en la que se creo el pedido en el MarketPlace |
+|**fecha_autoriza**|datetime|:heavy_check_mark:|Fecha en la que el pedido se pago|
+|**subtotal**|decimal(15,2)|:heavy_check_mark:|Monto antes de impuestos|
+|**total**|decimal(15,2)|:heavy_check_mark:|Monto con impuetos incluidos|
+|**email**|string(50)|:heavy_check_mark:|Correo con el que se levanto el pedido, usualmente los MarketPlaces no lo brindan.|
+|**entregara**|string(120)|:heavy_check_mark:|Persona que recibira elo pedido|
+|**telefono**|string(20)|:heavy_check_mark:|Teléfono del consumidor final|
+|**direccion**|string(100)|:heavy_check_mark:|Calle y Número.|
+|**entrecalles**|string(100)|:heavy_check_mark:|Entre calles de la ubicaciòn de entrega|
+|**colonia**|string(100)|:heavy_check_mark:|Colonia de ubicación de entrega|
+|**ciudad**|string(100)|:heavy_check_mark:|Ciudad en la que se entregarán los producos|
+|**estado**|string(100)|:heavy_check_mark:|Estado correspondiente a la ciudad|
+|**observaciones**|string(200)|:heavy_check_mark:|Referencia de la dirección para facilitar ubicación a paquetería.|
+|**cp**|string(10)|:heavy_check_mark:|Código postal|
+|**estatus**|string(30)|:heavy_check_mark:|estatu del pedido (puede variar en el tiempo).|
+|**mensajeria**|string(30)|:heavy_check_mark:|nombre de la mensajería.|
+|**guias**|string(100)|:heavy_check_mark:|Número de Guía|
+|**orden_id**|integer|:heavy_check_mark:|Identificador de su orden interna para procesamiento.|
+|**shipping_id**|string(20)|:heavy_check_mark:|Consolidador de ordenes de Mercado Libre.|
+|**fecha_orden**|datetime|:heavy_check_mark:|fecha de creación dela orden|
+|**fecha**|datetime|:heavy_check_mark:|fecha de última actualización de la orden|
+|**lineas**|array|:heavy_check_mark:|Conjunto de renglones del pedido|
+|**linea.product_id**|integer|:heavy_check_mark:|identificador del producto.|
+|**linea.sku**|string(18)|:heavy_check_mark:|Seller Sku de la variación.|
+|**linea.descripcion**|string(120)|:heavy_check_mark:|Descripción del producto vendido|
+|**linea.cantidad**|integer|:heavy_check_mark:|Cantidad vendida|
+|**linea.precio**|decimal(15,4)|:heavy_check_mark:|Precio unitario del producto|
+|**linea.color**|string(20)|:heavy_check_mark:|Color de la variación|
+|**linea.referencia**|string(30)|:heavy_check_mark:|Referencia del registro en el portal|
+|**linea.variacion**|string(10)|:heavy_check_mark:|Atributo que funciona como variación|
+
+> :information_source: Importante
+> Todas las fechas tienen formato YYYY-MM-DDTHH:mm:ss
 
 #### Verbo: PUT /pedidos
 

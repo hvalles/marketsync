@@ -1,5 +1,5 @@
 # Marketsync Documentación de API 
-### Controlador de Stock
+### Controlador de Variación
 
 [Inicio](https://github.com/hvalles/marketsync)  
 [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)

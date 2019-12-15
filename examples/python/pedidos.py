@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests
 import utils # Review config.example file and rename it to config.py, do not forget to erase your keys.
 
@@ -39,6 +41,7 @@ lineas.append({
     'cantidad': 1,
     'precio': 1000,
     'color': 'N/A',
+    'variacion': 'UNIT',
     'referencia' : '125365-1'
 })
 

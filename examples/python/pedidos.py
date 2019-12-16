@@ -36,7 +36,7 @@ p['fecha_orden'] = '2019-12-01T12:00:00'
 lineas = []
 lineas.append({
     'product_id' : 163766,
-    'sku': '88963-1',
+    'sku': '9815-1',
     'descripcion': 'Test product for API Guide',
     'cantidad': 1,
     'precio': 1000,

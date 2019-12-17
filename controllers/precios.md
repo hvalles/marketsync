@@ -14,7 +14,7 @@ Listado de precios, puedes limitar la búsqueda a determinados ids o skus de pro
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/precios?limit=5&timestamp=2019-12-12T10%3A52%3A35.181000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=7de055d3dd9c96d191fd2e44bf7c6b37956cba52bb05a7bdc8b44189845e0b25
+http://sandbox.marketsync.mx/api/precios?limit=5&timestamp=2019-12-12T10%3A52%3A35.181000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=7de055d3dd9c96d191fd2e44bf7c6b37956cba52bb05a7bdc8b44189845e0b25
 ```
 
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
@@ -99,7 +99,7 @@ r = requests.put(url, data=json.dumps(items))
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/precios?limit=5&timestamp=2019-12-12T10%3A52%3A35.181000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=7de055d3dd9c96d191fd2e44bf7c6b37956cba52bb05a7bdc8b44189845e0b25
+http://sandbox.marketsync.mx/api/precios?limit=5&timestamp=2019-12-12T10%3A52%3A35.181000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=7de055d3dd9c96d191fd2e44bf7c6b37956cba52bb05a7bdc8b44189845e0b25
 ```
 
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)

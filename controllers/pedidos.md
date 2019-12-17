@@ -12,7 +12,7 @@ Listado de pedidos puedes filtrar la información en base a la fecha de creació
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/pedidos?after=2019-11-15T00%3A00&before=2019-11-16T00%3A00&limit=2&offset=5&timestamp=2019-12-12T10%3A52%3A31.231000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=8facfb793eacc4c224ffdea280c0cf928ffc8948b31d5893de02d124fa3fc579
+http://sandbox.marketsync.mx/api/pedidos?after=2019-11-15T00%3A00&before=2019-11-16T00%3A00&limit=2&offset=5&timestamp=2019-12-12T10%3A52%3A31.231000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=8facfb793eacc4c224ffdea280c0cf928ffc8948b31d5893de02d124fa3fc579
 ```
 
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)

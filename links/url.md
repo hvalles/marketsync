@@ -11,8 +11,8 @@ Las llamadas se direccionaran de acuerdo al controlador con el siguiente formato
 
 https://{servidor}/api/{controlador}/[{seccion}]?{token=ahyjnd}&{parametros}&{signature=ahj45d..}
 
-- https:// Es el protocolo SSL de la llamda no admitirá http
-- {servidor} Para efectos de esta documentación aplicará https://sandbox.marketsync.mx
+- https:// Es el protocolo SSL de la llamda temporalmente sólo admitirá http
+- {servidor} Para efectos de esta documentación aplicará http://sandbox.marketsync.mx
 - {controlador} El controlador sobre el que desea se aplique el verbo correspondiente http.
 - [ {seccion} ] opcional en caso de que el controlador admita una sección adicional
 - {parámetros} Es el listado de parametros en formato GET [ ?param1=1&param2=2 ], que acompañan la petición
@@ -40,7 +40,7 @@ misma que puede ser solicitada en formato formulario o en objeto JSON, dependien
 
 #### Ejemplo URL
 
-https://sandbox.marketsync.mx/api/categorias?ids=9350  
+http://sandbox.marketsync.mx/api/categorias?ids=9350  
 &timestamp=2019-12-12T10%3A50%3A54.289000  
 &token=r559f7ab1cr3f97c7cc64b7fa43r54af  
 &version=1.0  

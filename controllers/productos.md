@@ -16,7 +16,7 @@ Listado de productos actuales, puede realizar filtros a través de los parametro
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/productos?limit=1&timestamp=2019-12-12T15%3A47%3A37.234000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=27f8be294fc5599bc0aea10295d7d541a6a708251ccfebd1e4b74279eaff90a1
+http://sandbox.marketsync.mx/api/productos?limit=1&timestamp=2019-12-12T15%3A47%3A37.234000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=27f8be294fc5599bc0aea10295d7d541a6a708251ccfebd1e4b74279eaff90a1
 ```
 
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)

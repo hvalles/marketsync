@@ -15,7 +15,7 @@ puede utilizar el párametro limit=N en conjunto con el parámetro offset, de no
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/categorias?ids=9350&timestamp=2019-12-12T10%3A50%3A54.289000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=ad9237253811c54c7c96a171dbce23d12f32a3c062fb778e4feff95041bcc261
+http://sandbox.marketsync.mx/api/categorias?ids=9350&timestamp=2019-12-12T10%3A50%3A54.289000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=ad9237253811c54c7c96a171dbce23d12f32a3c062fb778e4feff95041bcc261
 ```
 Respuesta:
 ```javascript

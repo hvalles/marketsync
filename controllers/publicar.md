@@ -22,7 +22,7 @@ La llamada es la misma, lo que varía es la accion del controlador [publicar, ag
 
 URL:
 ```HTTP
-https://sandbox.marketsync.mx/api/productos/publicar?timestamp=2019-12-12T10%3A52%3A35.699000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=12b1964acc697a4b4a8c80cb3ab0db253c48dc52d1db4bee6014191fe4c28c86
+http://sandbox.marketsync.mx/api/productos/publicar?timestamp=2019-12-12T10%3A52%3A35.699000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=12b1964acc697a4b4a8c80cb3ab0db253c48dc52d1db4bee6014191fe4c28c86
 ```
 
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)

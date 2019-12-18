@@ -47,3 +47,11 @@ Se utiliza en la creación de nuevas variaciones
 |**atributos.valor**|string(50)|:heavy_check_mark:|Valor del atributo|
 
 
+#### Verbo: PUT
+Se utiliza en la creación de nuevas variaciones
+
+#### Verbo: DELETE
+
+Se utiliza para eliminar las variaciones, para poder hacer válido la acción, el producto no debe de haber sido publicado.
+
+[Ver ejemplo en python](../examples/python/variacion.py)

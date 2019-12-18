@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import urllib
 from datetime import datetime, timedelta
 import hashlib
@@ -38,7 +40,7 @@ def getAnswer(url, accion, data=None):
     try:
         print r.json()
     except:
-        print r.text
+        print  ''.join([i if ord(i) < 128 else ' ' for i in r.text])
 
 # Initialize Prameters
 init()

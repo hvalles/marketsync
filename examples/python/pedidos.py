@@ -50,3 +50,16 @@ p['lineas'] = lineas
 pedidos=[p]
 
 utils.getAnswer(utils.getUrl('pedidos?'), requests.post, pedidos)
+
+
+# Actualizar estatuis de pedido
+
+utils.init()
+p={}
+p['referencia']='123456A'
+p['estatus']='authorized'
+p['comentario']='El pago se registro en banco referencia [...] ...'
+
+pedidos=[p]
+
+utils.getAnswer(utils.getUrl('pedidos?'), requests.put, pedidos)

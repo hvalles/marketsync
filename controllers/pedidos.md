@@ -161,9 +161,51 @@ Se utiliza en la creación de nuevos pedidos, en MarketPlace WEB
 
 #### Verbo: PUT /pedidos
 
+Se utiliza para actualizar el estatus del pedido y agregar comentarios acerca del estado del mismo.
+
+#### Columnas por enviar
+- **referencia** Número de pedido en el market.
+- **estatus** Correspondencia de estatus actual en el market.
+- **comentario** Comentario a gregar en el historial.
+
+[Ver ejemplo en python](../examples/python/pedidos.py)
+
+Listado de  estatus por MarketPlace
+|id	|market_id|market|estatus|
+|---|---------|------|-------|
+| 1	|1|	Claro|	Pendiente|
+| 2	|1|	Claro|	entregados|
+| 8	|1|	Claro|	embarcados|
+| 5	|2|	Linio|	pending|
+| 17|	2|	Linio|	delivered|
+| 18|	2|	Linio|	canceled|
+| 19|	2|	Linio|	shipped|
+| 21|	2|	Linio|	failed|
+| 27|	2|	Linio|	return_waiting_for_approval|
+| 28|	2|	Linio|	ready_to_ship|
+| 4	|4|	Mercado|	paid|
+| 9	|4|	Mercado	|delivered|
+| 10|	4|	Mercado|cancelled|
+| 3|	5|	Walmart|WAITING ACCEPTANCE|
+| 11|	5|	Walmart|CANCELED|
+| 12|	5|	Walmart|RECEIVED|
+| 14|	5|	Walmart|REFUSED|
+| 6|	6|	Amazon|	Shipped|
+| 7|	6|	Amazon|	Unshipped|
+| 22|	6|	Amazon|	Canceled|
+| 20|	8|	E-Commerce|	voided|
+| 23|	8|	E-Commerce|	refunded|
+| 24|	8|	E-Commerce|	paid|
+| 25|	8|	E-Commerce|	authorized|
+| 26|	8|	E-Commerce|	pending|
+| 29|	8|	E-Commerce|	pendiente|
+
+
+
+
+
 #### También le puede interesar:
 
 - [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
 - [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
 - [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
-

@@ -32,3 +32,4 @@ Entre otras cosas podrás integrar y/o controlar.
 - [Ruta de Recursos](https://github.com/hvalles/marketsync/blob/master/links/url.md)
 - [Comandos HTTP](https://github.com/hvalles/marketsync/blob/master/links/http.md)
 - [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
+- [Mejores Prácticas](https://github.com/hvalles/marketsync/blob/master/links/best.md)

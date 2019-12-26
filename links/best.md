@@ -1,5 +1,5 @@
 # Marketsync Documentación de API 
-### Mejoires Prácticas
+### Mejores Prácticas
 
 [Inicio](https://github.com/hvalles/marketsync)  
 [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)

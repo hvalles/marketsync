@@ -121,11 +121,21 @@ Respuesta:
 }
 
 ```
+#### Verbo: POST /stock
 
+Llamado para actualización fecha de corte del inventario, a partir de esta fecha se consideran los pedidos a descontar.
+
+Respuesta:
+```javascript
+{'answer': {
+    'result': 'Date-Stock updated to  2019-12-01 00:01:02'
+    }, 
+  'timestamp': '2019-12-26 14:36:39'
+}
+```
 
 #### También le puede interesar:
 
 - [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
 - [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
 - [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
-

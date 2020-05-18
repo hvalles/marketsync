@@ -91,3 +91,7 @@ $url = $SERVER + 'controller?' + $concatenated + '&signature=' + $sign
 
 ```
 [Ver llamada CURL en PHP] (https://www.php.net/manual/es/curl.examples-basic.php)
+
+> :information_source: Importante
+> El texto controller de las urls expuestas en las llamadas de arriba, debe de ser cambiado por el controlador deseado. ver la sección de controladores para más información.
+- [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)

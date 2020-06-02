@@ -36,7 +36,7 @@ misma que puede ser solicitada en formato formulario o en objeto JSON, dependien
 |before|Filtro el contenido del modelo de pedidos por fecha <= :before YYYY-MM-DDTHH:mm:ss| &before=2019-12-01T00:00:00|
 |after|Filtra el contenido del modelo de pedidos por fecha >= :after YYYY-MM-DDTHH:mm:ss| &after=2019-11-15T00:00:00|
 |beforeid|Filtro el contenido del modelo de pedidos por "id" <= :beforeid | & beforeid=0|
-|after|Filtro el contenido del modelo de pedidos por "id" >= :afterid | &afterid=99999999|
+|afterid|Filtro el contenido del modelo de pedidos por "id" >= :afterid | &afterid=99999999|
 |limit|Limita la cantidad de registros devueltos en la petición| &limit=50|
 |offset|Ignora la cantidad de registros inicial solicitada al devolver la petición, en un valor offset=250, se ignoraran los primeros 250 renglones.| &offset=250|
 

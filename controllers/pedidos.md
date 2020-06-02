@@ -107,6 +107,7 @@ Respuesta:
 - **sku** Seller Sku de la variación.
 - **modelo** Modelo del producto
 - **descripcion** Descripción del producto vendido
+- **fulfillment** En caso de que la línea sea embarcada por el MarketPlace "1", si lo embarca el Seller "0"
 - **cantidad** Cantidad vendida
 - **precio** Precio unitario del producto
 - **color** Color de la variación
@@ -150,6 +151,7 @@ Se utiliza en la creación de nuevos pedidos, en MarketPlace WEB
 |**linea.product_id**|integer|:heavy_check_mark:|identificador del producto.|
 |**linea.sku**|string(18)|:heavy_check_mark:|Seller Sku de la variación.|
 |**linea.descripcion**|string(120)|:heavy_check_mark:|Descripción del producto vendido|
+|**linea.fulfillment**|integer|:heavy_check_mark:|Emvarcado por el MarketPlace = 1, por el Seller = 0|
 |**linea.cantidad**|integer|:heavy_check_mark:|Cantidad vendida|
 |**linea.precio**|decimal(15,4)|:heavy_check_mark:|Precio unitario del producto|
 |**linea.color**|string(20)|:heavy_check_mark:|Color de la variación|
@@ -199,9 +201,6 @@ Listado de  estatus por MarketPlace
 | 25|	8|	E-Commerce|	authorized|
 | 26|	8|	E-Commerce|	pending|
 | 29|	8|	E-Commerce|	pendiente|
-
-
-
 
 
 #### También le puede interesar:

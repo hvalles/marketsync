@@ -25,6 +25,7 @@ Respuesta:
             "id": "9350",
             "categoria": "PIES PRENSATELAS",
             "ruta": "ELECTRODOMESTICOS/ARTEFACTOS_PARA_EL_HOGAR/MAQUINAS_DE_COSER_Y_ACCESORIOS/ACCESORIOS/PIES_PRENSATELAS",
+            "permite_variacion": "1",
             "filtros": [
                 {
                     "filtro_id": "20306",
@@ -48,6 +49,8 @@ Respuesta:
 - **id** es el identificador de la categoría.
 - **categoria** es el nombre de la misma
 - **ruta** se refiere al path completo desde el orgigen hasta el último nivel.
+- **permite_variacion** se refiere si la categoría permite variaciones en el producto.
+
 - **filtros**, en caso de que aplique se refieren a una subcategoría administrable para ClaroShop.
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 

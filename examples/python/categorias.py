@@ -3,6 +3,7 @@ import utils # Review config.example file and rename it to config.py, do not for
 
 
 # Getting stand alone category
+utils.parameters['ids'] = 7209
 utils.getAnswer(utils.getUrl('categorias?'), requests.get)
 
 # Getting attributes from a category

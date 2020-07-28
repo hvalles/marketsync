@@ -48,6 +48,7 @@ Respuesta:
             "filtro_id": "0",
             "marca_id": "23240",
             "etiquetas": "",
+            "etiquetas_web": "",
             "modelo": "H777",
             "activo": "0",
             "fecha": "2019-10-31 17:38:49",
@@ -160,6 +161,7 @@ Respuesta:
 - **pancho** ancho del paquete en centímetros
 - **plargo** largo del paquete en centímetros
 - **ppeso** peso del paquete en kilogramos.
+- **etiquetas_web** etiquetas de filtro e-commerce en portales Web (Shopify)
 - **color** color comercial del producto 
 - **base** color base del producto, (consulte el controlador Colores para mayor información)
 - **variaciones** Conjunto de variaciones del producto
@@ -237,6 +239,7 @@ Se utiliza en la creación de nuevos productos
 |pancho|integer|:heavy_check_mark:|Ancho del paquete en centímetros|
 |plargo|integer|:heavy_check_mark:|Largo del paquete en centímetros|
 |ppeso|integer|:heavy_check_mark:|Peso del paquete en kilogramos|
+|etiquetas_web|string(500)||Etiquetas a proporcionar a portales Web para creación de filtros entre otros. (Shopify)|
 |date_created|DateTime|:heavy_check_mark:|Fecha en la que el producto se comercializa, aparece en algunos markets|
 |atributos|Array|:heavy_check_mark:|Mandatorio en caso de llevar categoría, son los atributos de producto de acuerdo a la categoría, vea controlador Categoria/Atributos para mayor información|
 |atributo.atributo_id|string(50)|:heavy_check_mark:|Identificador clave del atributo|
@@ -252,8 +255,9 @@ Se utiliza en la creación de nuevos productos
 
 #### Verbo: PUT /productos
 
-Actualización del catálogo, el esquema y las columnas son las mismas con algunas restricciones, a excepción del identificador de producto product_id integer, y el sku, el resto de las columnas debe ser vsalidada para ser modificada.
+Actualización del catálogo, el esquema y las columnas son las mismas con algunas restricciones, a excepción del identificador de producto product_id integer, y el sku, el resto de las columnas debe ser validada para ser modificada.
 Solamente debe de incluir las columnas que sufrirán alguna alteración, las que se mantienen no tienen porque incluirlas.
+Es importante mencionar que la actualización de producto emitirá una acción de republicación, para el nombre, descripción, ficha y otros elementos en los market places.
 
 Columnas aptas para actualización.
 
@@ -275,8 +279,9 @@ Columnas aptas para actualización.
 16. plargo
 17. pancho
 18. ppeso
-19. date_created
-20. atributos
+19. etiquetas_web
+20. date_created
+21. atributos
 
 La respuesta serás similar a una consulta get con las columnas actualizadas.
 

@@ -3,7 +3,7 @@
 import requests
 import utils # Review config.example file and rename it to config.py, do not forget to erase your keys.
 
-# Getting countries
+# Getting Orders
 utils.parameters['limit'] = 2
 utils.getAnswer(utils.getUrl('pedidos?'), requests.get)
 
@@ -52,7 +52,7 @@ pedidos=[p]
 utils.getAnswer(utils.getUrl('pedidos?'), requests.post, pedidos)
 
 
-# Actualizar estatuis de pedido
+# Actualizar estatus de pedido
 
 utils.init()
 p={}

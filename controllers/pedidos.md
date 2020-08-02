@@ -168,7 +168,7 @@ Se utiliza para actualizar el estatus del pedido y agregar comentarios acerca de
 #### Columnas por enviar
 - **referencia** Número de pedido en el market.
 - **estatus** Correspondencia de estatus actual en el market.
-- **comentario** Comentario a gregar en el historial.
+- **comentario** Comentario por agregar en el historial.
 
 [Ver ejemplo en python](../examples/python/pedidos.py)
 

@@ -44,12 +44,13 @@ parameters['timestamp'] = str(datetime.now().isoformat()) # YYYY-MM-DDTHH:mm:ss
 parameters['version'] = '1.0'
 
 # You may add others parameters here
-...
+# ...
 
 # Signature parameter should not be included 
 concatenated = str(urllib.urlencode(sorted(parameters.items())))
 
 sign = HMAC(PRIVATE_KEY, concatenated, hashlib.sha256).hexdigest()
+# Reemplace controller con el controlador deseado.
 url = SERVER + 'controller?' + concatenated + '&signature=' + sign
 print url
 r = requests.get(url)
@@ -67,13 +68,13 @@ $TOKEN = 'YOUR PUBLIC TOKEN HERE'
 $SERVER = 'URL FOR MARKETSYNC SERVER ASSIGNED'
 
 # Set initial parameters
-$parameters = []
-$parameters['token'] = $TOKEN
-$parameters['timestamp'] = substr(date(DATE_ATOM),0,19) # YYYY-MM-DDTHH:mm:ss
-$parameters['version'] = '1.0'
-
+$parameters = [];
+$parameters['token'] = $TOKEN;
+$parameters['timestamp'] = substr(date(DATE_ATOM),0,19); # YYYY-MM-DDTHH:mm:ss
+$parameters['version'] = '1.0';
+        
 # You may add others parameters here
-...
+# ...
 
 ksort($parameters);
 // URL encode the parameters.
@@ -85,9 +86,11 @@ foreach ($parameters as $name => $value) {
 $concatenated = implode('&', $encoded);
 
 $sign = rawurlencode(hash_hmac('sha256', $concatenated, $PRIVATE_KEY, false));
-$url = $SERVER + 'controller?' + $concatenated + '&signature=' + $sign
+# Reemplace controller con el controlador deseado.
+$url = $SERVER . 'controller?' . $concatenated . '&signature=' . $sign;
 
-// ... Realizar llamada CURL
+// HACER LLAMADO CURL
+
 
 ```
 [Ver llamada CURL en PHP] (https://www.php.net/manual/es/curl.examples-basic.php)

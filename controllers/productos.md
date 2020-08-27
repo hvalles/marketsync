@@ -153,7 +153,15 @@ Respuesta:
 - **modelo**
 - **fecha**, fecha de actualización del producto
 - **origen** identificador del pais de origen (consulte el controlador de Paises para más información)
-- **warranty** garantía del producto
+- **warranty** garantía del producto, debe de ir en el formato (n) días|meses|años, donde (n) es un número entero, todos los valores son plurales.
+    - Ejemplo en Días:  30 días
+    - Ejemplo en Meses: 2 meses
+    - Ejemplo en Años: 2 años
+    - Garantía de Fabrica:
+    - Garantía de fábrica: 15 días
+    - Garantía de fábrica: 15 meses
+    - Garantía de fábrica: 15 años
+
 - **listing_type_id** Tipo de listado [bronze, silver, gold_pro, gold_premium, gold_special, gold]
 - **p_condition** inveriablemente todos los productos serán nuevos.
 - **nombre_modelo** en caso de existir un nombre comercial al modelo

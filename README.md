@@ -26,6 +26,13 @@ Entre otras cosas podrás integrar y/o controlar.
   > (https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional), ya que lo consideramos dinámico y flexible, así como 
   > sumamente difundido en el mercado actual. 
 
+### Consideraciones especiales (24/09/2020).
+  > Con el objeto de facilitar la integración, la cantidad de elementos mandatorios se ha reducido significativamente
+  > Los elementos mandatorios serán mínimos, sin embargo se mantiene la lista de elementos que deben de estar presentes en la llamada, aunque se les asigne un valor 0 o un vacío "".
+  > Esto impedira que los productos se publiquen en los Marketplaces dado la carencia de algunos elementos, en caso
+  de que le falte información desde su integración, favor de alimentar la información de forma manual a través de las
+  plantillas.
+
 ### Ver a continuación
 - [Servidor de Pruebas](https://github.com/hvalles/marketsync/blob/master/links/server.md)
 - [Obtención de juego de llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)

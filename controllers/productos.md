@@ -170,6 +170,7 @@ Respuesta:
 - **plargo** largo del paquete en centímetros
 - **ppeso** peso del paquete en kilogramos.
 - **etiquetas_web** etiquetas de filtro e-commerce en portales Web (Shopify)
+- **taxcode** Código de producto del SAT http://pys.sat.gob.mx/PyS/catPyS.aspx.
 - **color** color comercial del producto 
 - **base** color base del producto, (consulte el controlador Colores para mayor información)
 - **variaciones** Conjunto de variaciones del producto
@@ -248,6 +249,7 @@ Se utiliza en la creación de nuevos productos
 |plargo|integer|:heavy_check_mark:|Largo del paquete en centímetros|
 |ppeso|integer|:heavy_check_mark:|Peso del paquete en kilogramos|
 |etiquetas_web|string(500)||Etiquetas a proporcionar a portales Web para creación de filtros entre otros. (Shopify)|
+|taxcode|string(20)||Código de producto del SAT|
 |date_created|DateTime|:heavy_check_mark:|Fecha en la que el producto se comercializa, aparece en algunos markets|
 |atributos|Array|:heavy_check_mark:|Mandatorio en caso de llevar categoría, son los atributos de producto de acuerdo a la categoría, vea controlador Categoria/Atributos para mayor información|
 |atributo.atributo_id|string(50)|:heavy_check_mark:|Identificador clave del atributo|

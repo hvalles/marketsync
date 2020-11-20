@@ -27,12 +27,13 @@ def getUrl(url):
 
 def getAnswer(url, accion, data=None):
     print url
+    #print data
     if data:
-        print json.dumps(data)
+        #print json.dumps(data)
         if type(data) is dict:
             r = accion(url, data=data)
         else:
-            r = accion(url, data=json.dumps(data))
+            r = accion(url, json=data)
     else:
         r = accion(url)
 

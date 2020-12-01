@@ -29,12 +29,12 @@ A continuación se detallan algunas bases y puntos e vista que le pueden permiti
    6. Revise los atributos de la categoría para ver que información adicional requiere.
 5. Proceso de alta.
    1. De de alta el producto inicialmente. [(Producto)](../examples/python/productos.py)
-   2. Agregue el Stock de cada variación, todos los productos al menos tienen 1 variación, el SkuPadre y el SellerSku, pueden ser el mismo. [(Stock)](../examples/python/stock.py)
-   3. Complemente la información de la variación. [(Variación)](../examples/python/variacion.py)
+   2. Complemente la información de la variación. [(Variación)](../examples/python/variacion.py)
+   3. Agregue el Stock de cada variación, todos los productos al menos tienen 1 variación, el SkuPadre y el SellerSku, pueden ser el mismo. [(Stock)](../examples/python/stock.py)
    4. Agregue los precios de cada producto por cada MarketPlace. [(Precios)](../examples/python/precios.py)
    5. Segregue los productos que no desee, de manera predeterminada los productos se publican en todos los Markets. [(Publicar)](../examples/python/publicar.py)
    6. Autorice a MarketSync publicar su catálogo en cada Market [(Markets)](../examples/python/markets.py)
-   7. Actualice su stock regularmente y actualice la fecha de actualización de su inventario.
+   7. Actualice su stock regularmente.
    8. Revise los pedidos e intente enviar dentro de las 24 horas siguientes.
 
 

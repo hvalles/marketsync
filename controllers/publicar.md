@@ -13,12 +13,16 @@ Las rutas admitidas en este controlador son las siguientes
 #### Verbo: PUT /productos/publicar
 #### Verbo: PUT /productos/agotar
 #### Verbo: PUT /productos/suspender
+#### Verbo: PUT /productos/parcial
 
-La diferencia entre agotar y suspender, se refiere a que en agotar probablemente tenga algún tema de inventarios y suspender sería una práctica casi definitiva para no seguir emitiendo el producto.
+La diferencia entre agotar y suspender, se refiere a que en agotar probablemente tenga algún tema de inventarios y el marketplace será puesto en stock cero (0) y suspender sería una práctica para no emitir cambios hacia el marketplace, el producto serà administrado totalmente por el marketplace, ni descripciones, precios o stock será republicados hasta que retire de ese 
+estatus.
+
+El estatus 'parcial' indicará que solamente desea sincronizar el stock y/o precio, dejando la publicación en su descripción, ficha, nombre tal y como se encuentra en el momento de realizar el cambio.
 
 De manera predeterminada todos los productos se "publican" a menos de que se indique lo contrario.
 
-La llamada es la misma, lo que varía es la accion del controlador [publicar, agotar, suspender], según sea el caso.
+La llamada es la misma, lo que varía es la accion del controlador [publicar, agotar, prcial suspender], según sea el caso.
 
 URL:
 ```HTTP
@@ -51,7 +55,7 @@ Respuesta:
 - **msarket_id** es el identificador del MarketPlace.
 - **id** es el identificador del registro
 - **market** nombre del MarketPlace.
-- **accion** se refiere al resultado de la acción realizada [publicar, agotar, suspender]
+- **accion** se refiere al resultado de la acción realizada [publicar, agotar, parcial, suspender]
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 

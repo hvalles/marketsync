@@ -4,9 +4,9 @@
 [Inicio](https://github.com/hvalles/marketsync)  
 [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
 
-El controlador se utiliza para emitir acciones por producto y MarketPlace, que nos brindan la oportunidad para Publicar, Suspender o Agoitar un prducto en un MarkePlace en particular.
+El controlador se utiliza para emitir acciones por producto y MarketPlace, que nos brindan la oportunidad para Publicar, Suspender, Fulfillment o Agotar un producto en un MarkePlace en particular.
 
-Si por alguna razón no desea publicr un determinado producto en un MarketPlace, pero le interesa en un segmento limitado de los mismos, ya sea por alguna promoción exclusiva o por conveniencia operativa este controlador le permite realizar esa funcionalidad
+Si por alguna razón no desea publicar un determinado producto en un MarketPlace, pero le interesa en un segmento limitado de los mismos, ya sea por alguna promoción exclusiva o por conveniencia operativa este controlador le permite realizar esa funcionalidad
 
 Las rutas admitidas en este controlador son las siguientes
 
@@ -14,6 +14,7 @@ Las rutas admitidas en este controlador son las siguientes
 #### Verbo: PUT /productos/agotar
 #### Verbo: PUT /productos/suspender
 #### Verbo: PUT /productos/parcial
+#### Verbo: PUT /productos/fulfillment
 
 La diferencia entre agotar y suspender, se refiere a que en agotar probablemente tenga algún tema de inventarios y el marketplace será puesto en stock cero (0) y suspender sería una práctica para no emitir cambios hacia el marketplace, el producto serà administrado totalmente por el marketplace, ni descripciones, precios o stock será republicados hasta que retire de ese 
 estatus.
@@ -21,6 +22,8 @@ estatus.
 El estatus 'parcial' indicará que solamente desea sincronizar el stock y/o precio, dejando la publicación en su descripción, ficha, nombre tal y como se encuentra en el momento de realizar el cambio.
 
 De manera predeterminada todos los productos se "publican" a menos de que se indique lo contrario.
+
+El estatus fulfillment, hace referencia  a los productos cuyo stock, se sadministra desde el marketplace, al colocarlo "fulfillment", solamente cambia el estado del mismo, las negociaciones se realizan directamente por el propietario con cda marketplace.
 
 La llamada es la misma, lo que varía es la accion del controlador [publicar, agotar, prcial suspender], según sea el caso.
 
@@ -55,7 +58,7 @@ Respuesta:
 - **msarket_id** es el identificador del MarketPlace.
 - **id** es el identificador del registro
 - **market** nombre del MarketPlace.
-- **accion** se refiere al resultado de la acción realizada [publicar, agotar, parcial, suspender]
+- **accion** se refiere al resultado de la acción realizada [publicar, agotar, fulfillment, parcial, suspender]
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 

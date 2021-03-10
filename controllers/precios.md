@@ -82,6 +82,8 @@ Respuesta:
 
 Actualización de precios por MarketPlace, los datos de entrada corresponden a un arreglo de registros enviado en conjunto con la petición y en format JSON.
 
+- Importante: Tener descuentos superiores al 60%, podría ocasionar que rechacen o invaliden su publicación.
+
 ```python
 # Se llena el arreglo de elementos
 items = []

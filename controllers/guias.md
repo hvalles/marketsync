@@ -18,6 +18,18 @@ URL:
 http://sandbox.marketsync.mx/api/guias?timestamp=2019-12-12T10%3A52%3A34.690000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&orders=1080,1079&signature=5e111544f6d8519780daacf7804b25a9f4d4acb892e7e272b9b4ad1461fc507c
 ```
 
+#### Verbo: POST /guias
+
+Identificador de orden de la cual desea descargar la guía orders=99999, solamente puede descargar ua guía a la vez;
+el proceso solicitará al marketplace la guía y la descargará en base64.
+
+URL:
+```HTTP
+http://sandbox.marketsync.mx/api/guias?timestamp=2019-12-12T10%3A52%3A34.690000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&orders=1080&signature=5e111544f6d8519780daacf7804b25a9f4d4acb892e7e272b9b4ad1461fc507c
+```
+
+
+
 [:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
 
 Respuesta:

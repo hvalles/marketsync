@@ -33,9 +33,9 @@ de que le falte información desde su integración, favor de alimentar la inform
 plantillas.
 
 ### Ver a continuación
-- [Servidor de Pruebas](https://github.com/hvalles/marketsync/blob/master/links/server.md)
-- [Obtención de juego de llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
-- [Ruta de Recursos](https://github.com/hvalles/marketsync/blob/master/links/url.md)
-- [Comandos HTTP](https://github.com/hvalles/marketsync/blob/master/links/http.md)
-- [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
-- [Mejores Prácticas](https://github.com/hvalles/marketsync/blob/master/links/best.md)
+- [Servidor de Pruebas](/links/server.html)
+- [Obtención de juego de llaves](/links/keys.html)
+- [Ruta de Recursos](/links/url.html)
+- [Comandos HTTP](/links/http.html)
+- [Controladores](/links/controller.html)
+- [Mejores Prácticas](/links/best.html)

@@ -1,7 +1,7 @@
 # Marketsync Documentación de API 
 ### Seccion del conjunto de llaves
 
-[Inicio](https://github.com/hvalles/marketsync)
+[Inicio](/)
 
 ### Descripción de las llaves
 
@@ -97,4 +97,4 @@ $url = $SERVER . 'controller?' . $concatenated . '&signature=' . $sign;
 
 > :information_source: Importante
 > El texto controller de las urls expuestas en las llamadas de arriba, debe de ser cambiado por el controlador deseado. ver la sección de controladores para más información.
-- [Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
+- [Controladores](/links/controller.html)

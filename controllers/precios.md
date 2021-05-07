@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Precios
 
-[Inicio](https://github.com/hvalles/marketsync)  
-[Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
+[Inicio](/)  
+[Controladores](/links/controller.html)
 
 El controlador se utiliza como catálogo general, lo que impica que báscamente su uso será de lectura.
 
@@ -17,7 +17,7 @@ URL:
 http://sandbox.marketsync.mx/api/precios?limit=5&timestamp=2019-12-12T10%3A52%3A35.181000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=7de055d3dd9c96d191fd2e44bf7c6b37956cba52bb05a7bdc8b44189845e0b25
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
 
 Respuesta:
 ```javascript
@@ -104,7 +104,7 @@ URL:
 http://sandbox.marketsync.mx/api/precios?limit=5&timestamp=2019-12-12T10%3A52%3A35.181000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=7de055d3dd9c96d191fd2e44bf7c6b37956cba52bb05a7bdc8b44189845e0b25
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
 
 Respuesta:
 ```javascript
@@ -157,7 +157,7 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
-- [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
-- [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+- [Servidor](/links/server.html)
+- [Ruta de Recurso](/links/url.html)
+- [Conjunto de Llaves](/links/keys.html)
 

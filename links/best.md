@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Mejores Prácticas
 
-[Inicio](https://github.com/hvalles/marketsync)  
-[Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
+[Inicio](/)  
+[Controladores](/links/controller.html)
 
 
 A continuación se detallan algunas bases y puntos e vista que le pueden permitir utilizar esta guía de forma adecuada y productiva.
@@ -40,6 +40,6 @@ A continuación se detallan algunas bases y puntos e vista que le pueden permiti
 
 #### También le puede interesar:
 
-- [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
-- [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
-- [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+- [Servidor](/links/server.html)
+- [Ruta de Recurso](/links/url.html)
+- [Conjunto de Llaves](/links/keys.html)

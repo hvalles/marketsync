@@ -1,0 +1,21 @@
+---
+baseurl: ""
+
+title: MarketSync
+description: Marketsync Documentación de API
+logo: https://images.squarespace-cdn.com/content/570d910f4d088ed2c69df6bf/1568258211068-QRXDP9NCJED3F5BYTU9U/MS-08R.png?format=1500w&content-type=image%2Fpng
+show_downloads: false
+
+#repository: your/repo
+theme: jekyll-theme-minimal
+
+gems:
+- jekyll-github-metadata
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml

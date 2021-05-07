@@ -1,2 +1,5 @@
 config.py
 *.pyc
+.sass-cache/
+Gemfile.lock
+_site/

@@ -173,6 +173,7 @@ Se utiliza para actualizar el estatus del pedido y agregar comentarios acerca de
 [Ver ejemplo en python](../examples/python/pedidos.py)
 
 Listado de  estatus por MarketPlace
+
 |id	|market_id|market|estatus|
 |---|---------|------|-------|
 | 1	|1|	Claro|	Pendiente|

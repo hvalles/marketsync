@@ -33,9 +33,9 @@ de que le falte información desde su integración, favor de alimentar la inform
 plantillas.
 
 ### Ver a continuación
-- [Servidor de Pruebas](/links/server.html)
-- [Obtención de juego de llaves](/links/keys.html)
-- [Ruta de Recursos](/links/url.html)
-- [Comandos HTTP](/links/http.html)
-- [Controladores](/links/controller.html)
-- [Mejores Prácticas](/links/best.html)
+- [Servidor de Pruebas](/links/server.md)
+- [Obtención de juego de llaves](/links/keys.md)
+- [Ruta de Recursos](/links/url.md)
+- [Comandos HTTP](/links/http.md)
+- [Controladores](/links/controller.md)
+- [Mejores Prácticas](/links/best.md)

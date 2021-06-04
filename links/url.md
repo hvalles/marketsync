@@ -1,7 +1,7 @@
 # Marketsync Documentación de API 
 ### Seccion de URL 
 
-[Inicio](https://github.com/hvalles/marketsync)
+[Inicio](/)
 
 ### Formacion del URL para el consumo de recursos
 

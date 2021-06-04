@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Guías
 
-[Inicio](https://github.com/hvalles/marketsync)  
-[Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
+[Inicio](/)  
+[Controladores](/links/controller.html)
 
 El controlador se utiliza como llamada posterior a la descarga del pedido, para recuperar información acerca de las guías. La guías, "NO" se generan de forma automática, son alimentada a través del sitio web de la aplicación que genera el pedido o a petición manual del usuario en el portal de MarketSync, dependiendo de
 la plataforma a utilizar y lo que su API permita.
@@ -30,7 +30,7 @@ http://sandbox.marketsync.mx/api/guias?timestamp=2019-12-12T10%3A52%3A34.690000&
 
 
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
 
 Respuesta:
 ```javascript
@@ -61,7 +61,7 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
-- [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
-- [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+- [Servidor](/links/server.html)
+- [Ruta de Recurso](/links/url.html)
+- [Conjunto de Llaves](/links/keys.html)
 

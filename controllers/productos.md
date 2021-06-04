@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Productos
 
-[Inicio](https://github.com/hvalles/marketsync)  
-[Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
+[Inicio](/)  
+[Controladores](/links/controller.html)
 
 El controlador se utiliza para dar mantenimiento al catálogo de productos, contiene todas las acciones http.
 
@@ -19,7 +19,7 @@ URL:
 http://sandbox.marketsync.mx/api/productos?limit=1&timestamp=2019-12-12T15%3A47%3A37.234000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=27f8be294fc5599bc0aea10295d7d541a6a708251ccfebd1e4b74279eaff90a1
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
 
 Respuesta:
 ```javascript
@@ -311,7 +311,7 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
-- [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
-- [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+- [Servidor](/links/server.html)
+- [Ruta de Recurso](/links/url.html)
+- [Conjunto de Llaves](/links/keys.html)
 

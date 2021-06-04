@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Pedidos
 
-[Inicio](https://github.com/hvalles/marketsync)  
-[Controladores](https://github.com/hvalles/marketsync/blob/master/links/controller.md)
+[Inicio](/)  
+[Controladores](/links/controller.html)
 
 El controlador se utiliza medio de procesamiento para los pedidos, obteniendo la informacion de los mismos, así coo permitiendo ingresar nuevos de tus ventas en línea.
 
@@ -15,7 +15,7 @@ URL:
 http://sandbox.marketsync.mx/api/pedidos?after=2019-11-15T00%3A00&before=2019-11-16T00%3A00&limit=2&offset=5&timestamp=2019-12-12T10%3A52%3A31.231000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=8facfb793eacc4c224ffdea280c0cf928ffc8948b31d5893de02d124fa3fc579
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](https://github.com/hvalles/marketsync/blob/master/links/url.md)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
 
 Respuesta:
 ```javascript
@@ -173,6 +173,7 @@ Se utiliza para actualizar el estatus del pedido y agregar comentarios acerca de
 [Ver ejemplo en python](../examples/python/pedidos.py)
 
 Listado de  estatus por MarketPlace
+
 |id	|market_id|market|estatus|
 |---|---------|------|-------|
 | 1	|1|	Claro|	Pendiente|
@@ -205,6 +206,6 @@ Listado de  estatus por MarketPlace
 
 #### También le puede interesar:
 
-- [Servidor](https://github.com/hvalles/marketsync/blob/master/links/server.md)
-- [Ruta de Recurso](https://github.com/hvalles/marketsync/blob/master/links/url.md)
-- [Conjunto de Llaves](https://github.com/hvalles/marketsync/blob/master/links/keys.md)
+- [Servidor](/links/server.html)
+- [Ruta de Recurso](/links/url.html)
+- [Conjunto de Llaves](/links/keys.html)

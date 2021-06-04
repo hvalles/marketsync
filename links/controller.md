@@ -1,7 +1,7 @@
 # Marketsync Documentación de API 
 ### Seccion de Controladores
 
-[Inicio](/)
+[Inicio](https://github.com/hvalles/marketsync)
 
 Los controladores son las rutas que permiten el acceso al consumo de la API y/o lectura/escritura de cada modelo correspondiente.
 
@@ -21,6 +21,6 @@ Los controladores son las rutas que permiten el acceso al consumo de la API y/o 
 12. [Fulfillment](../controllers/fulfillment.md)
 #### También le puede interesar:
 
-- [Servidor](/links/server.html)
-- [Ruta de Recurso](/links/url.html)
-- [Conjunto de Llaves](/links/keys.html)
+- [Servidor](/links/server.md)
+- [Ruta de Recurso](/links/url.md)
+- [Conjunto de Llaves](/links/keys.md)

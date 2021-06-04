@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Publicaciones
 
-[Inicio](/)  
-[Controladores](/links/controller.html)
+[Inicio](https://github.com/hvalles/marketsync)  
+[Controladores](/links/controller.md)
 
 El controlador se utiliza para emitir acciones por producto y MarketPlace, que nos brindan la oportunidad para Publicar, Suspender, Fulfillment o Agotar un producto en un MarkePlace en particular.
 
@@ -32,7 +32,7 @@ URL:
 http://sandbox.marketsync.mx/api/productos/publicar?timestamp=2019-12-12T10%3A52%3A35.699000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=12b1964acc697a4b4a8c80cb3ab0db253c48dc52d1db4bee6014191fe4c28c86
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.md)
 
 
 [Vea la implementación aqui](/examples/python/publicar.py)
@@ -65,7 +65,7 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](/links/server.html)
-- [Ruta de Recurso](/links/url.html)
-- [Conjunto de Llaves](/links/keys.html)
+- [Servidor](/links/server.md)
+- [Ruta de Recurso](/links/url.md)
+- [Conjunto de Llaves](/links/keys.md)
 

@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Colores
 
-[Inicio](/)  
-[Controladores](/links/controller.html)
+[Inicio](https://github.com/hvalles/marketsync)  
+[Controladores](/links/controller.md)
 
 El controlador se utiliza como catálogo general, lo que impica que báscamente su uso será de lectura.
 
@@ -17,7 +17,7 @@ URL:
 http://sandbox.marketsync.mx/api/colores?timestamp=2019-12-12T10%3A52%3A34.193000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=1a7cb61e0167084310dc5a26013c0531445e5275be283aa002a13f18f1890d01
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.md)
 
 Respuesta:
 ```javascript
@@ -48,7 +48,7 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](/links/server.html)
-- [Ruta de Recurso](/links/url.html)
-- [Conjunto de Llaves](/links/keys.html)
+- [Servidor](/links/server.md)
+- [Ruta de Recurso](/links/url.md)
+- [Conjunto de Llaves](/links/keys.md)
 

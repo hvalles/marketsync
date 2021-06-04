@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Paises
 
-[Inicio](/)  
-[Controladores](/links/controller.html)
+[Inicio](https://github.com/hvalles/marketsync)  
+[Controladores](/links/controller.md)
 
 El controlador se utiliza como catálogo general, lo que impica que báscamente su uso será de lectura.
 
@@ -17,7 +17,7 @@ URL:
 http://sandbox.marketsync.mx/api/paises?timestamp=2019-12-12T10%3A52%3A34.690000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=5e111544f6d8519780daacf7804b25a9f4d4acb892e7e272b9b4ad1461fc507c
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.md)
 
 Respuesta:
 ```javascript
@@ -57,7 +57,7 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](/links/server.html)
-- [Ruta de Recurso](/links/url.html)
-- [Conjunto de Llaves](/links/keys.html)
+- [Servidor](/links/server.md)
+- [Ruta de Recurso](/links/url.md)
+- [Conjunto de Llaves](/links/keys.md)
 

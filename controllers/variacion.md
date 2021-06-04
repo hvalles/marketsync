@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Variación
 
-[Inicio](/)  
-[Controladores](/links/controller.html)
+[Inicio](https://github.com/hvalles/marketsync)  
+[Controladores](/links/controller.md)
 
 El controlador se utiliza para agregar o actualizar las variaciones de producto.
 

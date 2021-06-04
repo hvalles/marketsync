@@ -1,7 +1,7 @@
 # Marketsync Documentación de API 
 ### Seccion de Servidor 
 
-[Inicio](/)
+[Inicio](https://github.com/hvalles/marketsync)
 
 ### Direccion del Servidor
 

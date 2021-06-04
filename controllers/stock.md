@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Stock
 
-[Inicio](/)  
-[Controladores](/links/controller.html)
+[Inicio](https://github.com/hvalles/marketsync)  
+[Controladores](/links/controller.md)
 
 El controlador se utiliza para actualizar el Stock de las variaciones, así como para actualizar la fecha de corte de la actualización.
 
@@ -20,7 +20,7 @@ URL:
 http://sandbox.marketsync.mx/api/stock?ids=162700&timestamp=2019-12-12T10%3A52%3A36.686000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=54a98aea2667c308ef086195b6d2c9d0ea71efa292071e6399e91bddd0b0144c
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.md)
 
 Respuesta:
 ```javascript
@@ -136,6 +136,6 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](/links/server.html)
-- [Ruta de Recurso](/links/url.html)
-- [Conjunto de Llaves](/links/keys.html)
+- [Servidor](/links/server.md)
+- [Ruta de Recurso](/links/url.md)
+- [Conjunto de Llaves](/links/keys.md)

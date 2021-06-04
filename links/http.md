@@ -1,7 +1,7 @@
 # Marketsync Documentación de API 
 ### Seccion de comandos http
 
-[Inicio](/)
+[Inicio](https://github.com/hvalles/marketsync)
 
 ### Los comandos http utilizados en el consumo del API se describen a continuación
 
@@ -15,7 +15,7 @@
 ### Las APIs se encuentran divididas en secciones 
 De acuerdo al controlador de cada modelo y se limitan solamente a la funcionalidad expuesta por el diseño, es decir no todos los comandos aplican por cada controlador, usualmente los catálogos generales solamente podrás consultarlos.
 
-[Ver Ruta de Recurso](/links/url.html)
+[Ver Ruta de Recurso](/links/url.md)
 
 #### Lista de comandos aplicables a los controladores
 

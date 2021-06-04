@@ -1,8 +1,8 @@
 # Marketsync Documentación de API 
 ### Controlador de Markets
 
-[Inicio](/)  
-[Controladores](/links/controller.html)
+[Inicio](https://github.com/hvalles/marketsync)  
+[Controladores](/links/controller.md)
 
 El controlador se utiliza para visualizar los MarketPlaces vigentes, como para actualizar su participación en los mismos.
 
@@ -17,7 +17,7 @@ URL:
 http://sandbox.marketsync.mx/api/markets?timestamp=2019-12-12T10%3A52%3A33.195000&token=r559f7ab1cr3f97c7cc64b7fa43r54af&version=1.0&signature=e48273e6a215eb5afda5ea52919e698fadf90691df5a1090f90f578e279dae32
 ```
 
-[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.html)
+[:link: Puede ver la composición del URL en el siguiente enlace.](/links/url.md)
 
 Respuesta:
 ```javascript
@@ -88,7 +88,7 @@ Respuesta:
 
 #### También le puede interesar:
 
-- [Servidor](/links/server.html)
-- [Ruta de Recurso](/links/url.html)
-- [Conjunto de Llaves](/links/keys.html)
+- [Servidor](/links/server.md)
+- [Ruta de Recurso](/links/url.md)
+- [Conjunto de Llaves](/links/keys.md)
 

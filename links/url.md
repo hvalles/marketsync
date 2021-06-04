@@ -50,6 +50,6 @@ http://sandbox.marketsync.mx/api/categorias?ids=9350
 
 En donde :
 - ids hace referencia  a la categoría que deseo explorar
-- timestamp es la fecha y hora de la petición en formato YYYY-MM-DDTHH:mm:ss
+- timestamp es la fecha y hora de la petición en formato YYYY-MM-DDTHH:mm:ss, hora de la Cd de México
 - version es la version de la API 1.0
 - signature es el hash de comprobación

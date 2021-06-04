@@ -2,7 +2,7 @@
 ### Controlador de Categorias
 
 [Inicio](/)  
-[Controladores](/links/controller.html)
+[Controladores](/marketsync/links/controller.html)
 
 El controlador se utiliza como catálogo general, lo que impica que báscamente su uso será de lectura.
 
@@ -133,7 +133,7 @@ Devuelve un conjunto de atributos válidos de acuerdo a cada categoría en donde
 
 #### También le puede interesar:
 
-- [Servidor](/links/server.html)
-- [Ruta de Recurso](/links/url.html)
-- [Conjunto de Llaves](/links/keys.html)
+- [Servidor](/marketsync/links/server.html)
+- [Ruta de Recurso](/marketsync/links/url.html)
+- [Conjunto de Llaves](/marketsync/links/keys.html)
 

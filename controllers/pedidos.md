@@ -143,6 +143,8 @@ Respuesta:
 - **fecha_orden** fecha de creación dela orden
 - **fecha** fecha de última actualización de la orden
 - **market** 
+- **tablas** Información adicional configurada por el usuario, y  alimentada sólo desde MarketSync; para propósitos de complementar su información. Es importante recalcar que cada cliente configura la infomración a sus necesidades y se 
+encarga de validarla y procesala.
 
 
 #### Items línea de pedido
@@ -157,6 +159,8 @@ Respuesta:
 - **precio** Precio unitario del producto
 - **color** Color de la variación
 - **variacion** Tipo de variación 
+- **kit_id** Identificador de kit, en caso de existir
+- **kit** Composición del kit, con las cantidades expandidas de acuerdo al Bill of Materials
 - **fecha** fecha del registro de la operación
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 

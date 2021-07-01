@@ -20,55 +20,100 @@ http://sandbox.marketsync.mx/api/pedidos?after=2019-11-15T00%3A00&before=2019-11
 Respuesta:
 ```javascript
 {
-    "answer": [
+    "answer":
+    [
         {
-            "id": "135851",
-            "cliente_id": "1005",
-            "market_id": "4",
-            "referencia": "2206600680",
-            "fecha_pedido": "2019-11-10 00:15:03",
-            "fecha_autoriza": "2019-11-10 00:15:03",
-            "subtotal": "1000",
-            "total": "1160.00",
-            "email": "none@ml.com",
-            "entregara": "GABRIELA RAMIREZ",
+            "id": "162958",
+            "referencia": "32274456",
+            "fecha_pedido": "2021-06-24 00:00:00",
+            "fecha_autoriza": "2021-06-24 00:00:00",
+            "total": "299.00",
+            "subtotal": "257.76",
+            "email": "none@claroshop.com",
+            "entregara": "Roberto perez",
             "telefono": "",
-            "direccion": "Reforma 206",
-            "entrecalles": "",
-            "colonia": "",
-            "ciudad": "Centro",
-            "estado": "Guerrero",
-            "observaciones": "Referencia: Portón negro Entre: Felix y Samaniego",
-            "cp": "87529",
-            "envio": "0.00",
-            "comision": "0.00",
-            "estatus": "delivered",
-            "mensajeria": null,
+            "direccion": "Lilas 1060 num int. , num ext. #7",
+            "entrecalles": "Rosas y Helechos",
+            "colonia": "El Invernadero",
+            "ciudad": "Delegación Miguel Hidalgo",
+            "estado": "Ciudad de México",
+            "observaciones": "",
+            "cp": "17660",
+            "estatus": "embarcados",
             "guias": null,
-            "estatusguia": null,
-            "orden_id": null,
-            "shipping_id": "",
-            "fecha_orden": "2019-11-15 06:13:48",
-            "fecha": "2019-12-12 14:11:04",
-            "market": "Mercado",
-            "items": [
+            "orden_id": "73507",
+            "shipping_id": null,
+            "fecha_orden": "2021-06-24 11:46:26",
+            "fecha": "2021-06-24 16:45:00",
+            "envio": "0.00",
+            "comision": "41.86",
+            "market_id": "1",
+            "market": "Claro",
+            "items":
+            [
                 {
-                    "id": "15551",
-                    "pedido": "135851",
-                    "product_id": "145236",
-                    "sku": "5331A",
-                    "modelo": "WATCH-100",
-                    "descripcion": "Reloj de pared con números romanos ",
+                    "id": "171870",
+                    "pedido": "162958",
+                    "product_id": "183150",
+                    "sku": "61922-XG",
+                    "modelo": "9603",
+                    "descripcion": "Calcetas Pumas UNAM Kit 6 Pares Mixto",
                     "cantidad": "1",
-                    "precio": "1000",
-                    "color": "N/D",
-                    "variacion": "UNIT",
-                    "fecha": "2019-11-09 22:20:02"
+                    "precio": "257.7586",
+                    "color": "",
+                    "variacion": "",
+                    "fulfillment": "0",
+                    "fecha": "2021-06-30 21:59:13",
+                    "kit_id": "1244",
+                    "kit":
+                    [
+                        {
+                            "id": "1203",
+                            "product_id": "180539",
+                            "sku": "60834-XG",
+                            "nombre": "Calcetas Pumas Unisex Blanco",
+                            "color": "Blanco",
+                            "talla": "XG",
+                            "cantidad": "2"
+                        },
+                        {
+                            "id": "1204",
+                            "product_id": "180532",
+                            "sku": "60827-XG",
+                            "nombre": "Calcetas Pumas Unam Blanco",
+                            "color": "Blanco",
+                            "talla": "XG",
+                            "cantidad": "2"
+                        },
+                        {
+                            "id": "1205",
+                            "product_id": "180534",
+                            "sku": "60829-XG",
+                            "nombre": "Calcetas Pumas Unam Azul",
+                            "color": "Azul",
+                            "talla": "XG",
+                            "cantidad": "2"
+                        }
+                    ]
+                }
+            ],
+            "tablas":
+            [
+                {
+                    "tabla_id": "3",
+                    "titulo_tabla": "Guías Adicionales",
+                    "campo": "Mensajeria",
+                    "opcion": "DHL",
+                    "relacion": "id_tienda",
+                    "clave": "6",
+                    "titulo_extra": "No guia",
+                    "extra": "253636525",
+                    "comentario": "Next Day"
                 }
             ]
-        },
+        }
     ],
-    "timestamp": "2019-12-12 21:11:54"
+    "timestamp": "2021-07-01 10:04:24"
 }
 
 ```

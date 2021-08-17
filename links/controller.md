@@ -19,6 +19,7 @@ Los controladores son las rutas que permiten el acceso al consumo de la API y/o 
 10. [Variación](../controllers/variacion.md)
 11. [Guías](../controllers/guias.md)
 12. [Fulfillment](../controllers/fulfillment.md)
+13. [Ubicado](../controllers/ubicado.md)
 #### También le puede interesar:
 
 - [Servidor](/links/server.md)

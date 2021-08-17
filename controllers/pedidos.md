@@ -111,6 +111,14 @@ Respuesta:
                     "comentario": "Next Day"
                 }
             ]
+            "ubicacion": 
+            [
+                {
+                    "ubicacion": "INC-002", 
+                    "id": "3"
+                }
+            ]
+
         }
     ],
     "timestamp": "2021-07-01 10:04:24"

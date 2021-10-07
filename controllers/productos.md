@@ -162,7 +162,7 @@ Respuesta:
     - Garantía de fábrica: 15 meses
     - Garantía de fábrica: 15 años
 
-- **listing_type_id** Tipo de listado [bronze, silver, gold_pro, gold_premium, gold_special, gold]
+- **listing_type_id** Tipo de listado [gold_pro, gold_special]
 - **p_condition** inveriablemente todos los productos serán nuevos.
 - **nombre_modelo** en caso de existir un nombre comercial al modelo
 - **palto** altura del paquete en centímetros
@@ -238,7 +238,7 @@ Se utiliza en la creación de nuevos productos
 |marca|string(50)|:heavy_check_mark:|Nombre de la marca|
 |etiquetas|string(200)|:heavy_check_mark:|Términos de búsqueda para el producto|
 |modelo|string(30)|:heavy_check_mark:|Número de modelo|
-|listing_type_id|string(50)|:heavy_check_mark:|Son de Mercado Libre y afecta el % de comisión [bronze, silver, gold_pro, gold_premium, gold_special, gold](https://developers.mercadolibre.com.mx/es_ar/tipos-de-publicacion-y-actualizaciones-de-articulos) |
+|listing_type_id|string(50)|:heavy_check_mark:|Son de Mercado Libre y afecta el % de comisión [gold_pro, gold_special] |
 |warranty|string(50)||Garantía del producto|
 |nombre_modelo|string(50)||Nombre comercial del modelo|
 |origen|integer|:heavy_check_mark:|País de origen, vea el controlador Paises para mayor información|

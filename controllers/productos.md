@@ -38,7 +38,6 @@ Respuesta:
             "peso": "0.000",
             "precio": "599.00",
             "oferta": "599.00",
-            "stock": "0",
             "sku": "8811",
             "dias_embarque": "2",
             "categoria": "CELULARES_Y_TELEFONIA/EQUIPOS_DE_RADIOFRECUENCIA/PORTATILES",

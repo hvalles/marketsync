@@ -1,5 +1,5 @@
 # Marketsync Documentación de API 
-### Controlador de Markets
+### Controlador de Kits
 
 [Inicio](https://github.com/hvalles/marketsync)  
 [Controladores](/links/controller.md)

@@ -26,8 +26,8 @@ def getUrl(url):
     return config.SERVER + url + concatenated + '&signature=' + Signature(concatenated)
 
 def getAnswer(url, accion, data=None):
-    print url
-    #print data
+    print (url)
+    print (data)
     if data:
         #print json.dumps(data)
         if type(data) is dict:
@@ -39,7 +39,7 @@ def getAnswer(url, accion, data=None):
 
     print "******************************************"
     try:
-        print r.json()
+        print r.text
     except:
         print  ''.join([i if ord(i) < 128 else ' ' for i in r.text])
 

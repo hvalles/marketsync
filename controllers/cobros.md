@@ -28,7 +28,7 @@ Respuesta:
         {
             "id": "3",
             "store": "qrstore-mx.myshopify.com",
-            "referencia": "1052",
+            "referencia": "8523697452",
             "numero": "1052",
             "total": "659.00",
             "entregara": "Benjamin Rascon",
@@ -43,7 +43,7 @@ Respuesta:
 ```
 - **id** es el identificador de la orden temporal.
 - **store** es el dominio desde donde se genera
-- **referencia** es el identificador interno del pedido
+- **referencia** es el identificador interno del pedido (read only)
 - **numero** es el código que recibe el cliente para procesar el pago
 - **total** es el monto a cobrar
 - **entregara** nombre del cliente alque se le entregará el pedido
@@ -60,6 +60,15 @@ URL:
 ```HTTP
 http://sandbox.marketsync.mx/api/cobros?orders=1052&timestamp=2022-01-25T00%3A39%3A33.995217&token=a00c96f3a33de16f50ac1ab47222f232&version=1.0&signature=096ea36e4eb85f1df822242cb742009572514f05633e116cca9a6a65a339ad25
 ```
+Body
+```javascript
+{
+     "caja":"5",
+     "monto":"659",
+     "sucursal":"La Fe",
+     "ticket":"123456"
+}
+```
 
 Respuesta:
 ```javascript
@@ -75,7 +84,7 @@ Respuesta:
 
 ### Es importante conservar el folio del pago, si deseas cancelar posteriormente.
 
-#### Verbo: PUT /cobros
+#### Verbo: PUT /cobros (Deprecated)
 
 Cancela el registro del pago, la operacióin tiene un límite de tiempo para
 realizarse de 60 minutos.
@@ -87,7 +96,7 @@ URL:
 http://sandbox.marketsync.mx/api/cobros?ids=4&timestamp=2022-01-25T00%3A44%3A32.561919&token=a00c96f3a33de16f50ac1ab47222f232&version=1.0&signature=f44a55166b34dbb068e8d93a5b0c2257941daf0403b72ee46e4308907c80003b
 ```
 
-Respuesta:
+Respuesta: (Deprecated no longer active)
 ```javascript
 {
     "answer":

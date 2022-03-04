@@ -24,6 +24,9 @@ El hash se utiliza como token de encriptación al momento de firmar la petición
 
 ### Generación de Firma
 
+> :information_source: Importante
+> Debe de ordenar los parámetros de forma alfabética antes de firmar la cadena, así mismo la firma no puede ser parte de la cadena a firmar.
+
 #### Versión Python 2.7
 ```python
 

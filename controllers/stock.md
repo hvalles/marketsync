@@ -134,6 +134,15 @@ Respuesta:
 }
 ```
 
+#### Tabla Definición de Columnas
+
+|columna|tipo|mandatorio|descripcion|
+|-------|----|----------|-----------|
+|product_id|integer|:heavy_check_mark:|Identificador del registro padre del producto|
+|seller_sku|string(20)|:heavy_check_mark:|Identificador externo de la variación|
+|stock|integer|:heavy_check_mark:|Entero positivo con la cantidad disponible a la venta, se espera un "entero"|
+
+
 #### También le puede interesar:
 
 - [Servidor](/links/server.md)

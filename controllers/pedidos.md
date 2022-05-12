@@ -261,6 +261,137 @@ Listado de  estatus por MarketPlace
 | 29|	8|	E-Commerce|	pendiente|
 
 
+#### Verbo: GET /pedidos/totales/{id}
+
+Recupera los cargos adicionales que tengan los pedidos, y se han identificado desde el api de consumo,
+para amazon la consulta es en tiempo real, por lo que lanza una petición a su información en los
+servidores del marketplace (Existe una cuota de 1 llamada cada 2 segundos)
+
+#### Columnas por enviar
+- **id** Número de pedido en MarketSync, como parte del URL
+
+> :information_source: Importante
+> Tiene que hacer una pausa de 2 segundos entre llamadas para evitar throttling
+
+
+Ejemplo de respuesta
+```javascript
+{
+    "answer":
+    [
+        {
+            "id": 1613120,
+            "pedido_id": 544888,
+            "concepto": "SUBTOTAL",
+            "label": "",
+            "total": 904.31,
+            "estado": 1,
+            "fecha": "2022-05-09T22:07:47"
+        },
+        {
+            "id": 1613121,
+            "pedido_id": 544888,
+            "concepto": "IVA",
+            "label": "",
+            "total": 144.69,
+            "estado": 1,
+            "fecha": "2022-05-09T22:07:47"
+        },
+        {
+            "id": 1613122,
+            "pedido_id": 544888,
+            "concepto": "TOTAL",
+            "label": "",
+            "total": 1049,
+            "estado": 1,
+            "fecha": "2022-05-09T22:07:47"
+        },
+        {
+            "id": 1613124,
+            "pedido_id": 544888,
+            "concepto": "PAGO_TIPO",
+            "label": "Other",
+            "total": 0,
+            "estado": 1,
+            "fecha": "2022-05-09T22:07:47"
+        },
+        {
+            "id": 1613125,
+            "pedido_id": 544888,
+            "concepto": "PAGO_METODO",
+            "label": "CreditCard",
+            "total": 0,
+            "estado": 1,
+            "fecha": "2022-05-09T22:07:47"
+        },
+        {
+            "id": 1613123,
+            "pedido_id": 544888,
+            "concepto": "ENVIO_COSTO",
+            "label": "Shipping Draft",
+            "total": 0,
+            "estado": 1,
+            "fecha": "2022-05-09T22:07:47"
+        },
+        {
+            "id": 0,
+            "pedido_id": 0,
+            "concepto": "OTROS_INGRESOS",
+            "label": "Charge Principal MXN",
+            "total": 904.31,
+            "estado": 1,
+            "fecha": null
+        },
+        {
+            "id": 0,
+            "pedido_id": 0,
+            "concepto": "OTROS_INGRESOS",
+            "label": "Charge Tax MXN",
+            "total": 144.69,
+            "estado": 1,
+            "fecha": null
+        },
+        {
+            "id": 0,
+            "pedido_id": 0,
+            "concepto": "OTROS_EGRESOS",
+            "label": "Fee Commission MXN",
+            "total": -157.35,
+            "estado": 1,
+            "fecha": null
+        },
+        {
+            "id": 0,
+            "pedido_id": 0,
+            "concepto": "OTROS_EGRESOS",
+            "label": "Adjustment PostageBilling_FuelSurcharge MXN",
+            "total": -3.16,
+            "estado": 1,
+            "fecha": null
+        },
+        {
+            "id": 0,
+            "pedido_id": 0,
+            "concepto": "OTROS_EGRESOS",
+            "label": "Adjustment PostageBilling_Postage MXN",
+            "total": -74.87,
+            "estado": 1,
+            "fecha": null
+        },
+        {
+            "id": 0,
+            "pedido_id": 0,
+            "concepto": "OTROS_EGRESOS",
+            "label": "Adjustment PostageBilling_VAT MXN",
+            "total": -12.48,
+            "estado": 1,
+            "fecha": null
+        }
+    ],
+    "timestamp": "2022-05-12 21:03:53"
+}
+```
+
 #### También le puede interesar:
 
 - [Servidor](/links/server.md)

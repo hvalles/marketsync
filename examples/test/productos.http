@@ -2,7 +2,8 @@
 @token=YOUR_TOKEN_HERE
 @firma=YOUR_SIGNATURE_HERE
 @fecha=DATETIME_YYYY-MM-DDTHH:MM:SS
-PUT http://sandbox.marketsync.mx/api/productos?timestamp={{fecha}}&token={{token}}&version=1.0&signature={{firma}}
+@server=http://sandbox.marketsync.mx/api/
+PUT {{server}}productos?timestamp={{fecha}}&token={{token}}&version=1.0&signature={{firma}}
 
 # Body
 [

@@ -30,6 +30,8 @@ Se utiliza en la creación de nuevas variaciones
 |**stock**|integer|:heavy_check_mark:|Cantidad de stock|
 |**color**|string(50)|:heavy_check_mark:|Color comercial de la variación|
 |**base**|string(30)|:heavy_check_mark:|Identificador de color, revise el controlador de colores para ver colores válidos|
+|**talla**|string(15)|:x:|Talla de la variación|
+|**GTIN**|string(15)|:x:|Código de barras de la variación|
 |**video**|string(250)|:heavy_check_mark:|URL del video, puede enviar vacio ('') de no tener la información|
 |**imagen1**|string(250)|:heavy_check_mark:|URL de imagen principal, puede enviar vacio ('') de no tener la información|
 |**imagen2**|string(250)|:heavy_check_mark:|URL de imagen adicional, puede enviar vacio ('') de no tener la información|

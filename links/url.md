@@ -19,7 +19,7 @@ https://{servidor}/api/{controlador}/[{seccion}]?{token=ahyjnd}&{parametros}&{si
 - {token} Se refiere a la llave pública que identifica al consumidor y al cliente con el que se le relaciona.
 - {signature} Es la encriptación que identifica que la petición es reconocida y válida
 
-Para los comandos GET esta sería toda la información necesaria, pero para POST y PUT, se requiweren información adicional,
+Para los comandos GET esta sería toda la información necesaria, pero para POST y PUT, se requieren información adicional,
 misma que puede ser solicitada en formato formulario o en objeto JSON, dependiendo la integración.
 
 ### Listado de parametros opcionales
@@ -33,8 +33,8 @@ misma que puede ser solicitada en formato formulario o en objeto JSON, dependien
 |name|Filtro el contenido del modelo por nombre en un formato LIKE '%name%'| &name=Zapatilla|
 |markets|Filtro el contenido del modelo de pedidos por Marketplace de acuerdo a su identificados| &markets=1,2|
 |orders|Filtro el contenido del modelo de pedidos por identificador de pedido| &orders=1080,1085|
-|before|Filtro el contenido del modelo de pedidos por fecha <= :before YYYY-MM-DDTHH:mm:ss| &before=2019-12-01T00:00:00|
-|after|Filtra el contenido del modelo de pedidos por fecha >= :after YYYY-MM-DDTHH:mm:ss| &after=2019-11-15T00:00:00|
+|before|Filtro el contenido del modelo de pedidos por fecha_pedido <= :before YYYY-MM-DDTHH:mm:ss| &before=2019-12-01T00:00:00|
+|after|Filtra el contenido del modelo de pedidos por fecha_pedido >= :after YYYY-MM-DDTHH:mm:ss| &after=2019-11-15T00:00:00|
 |beforeid|Filtro el contenido del modelo de pedidos|guias por "id" <= :beforeid | & beforeid=0|
 |afterid|Filtro el contenido del modelo de pedidos|guias por "id" >= :afterid | &afterid=99999999|
 |limit|Limita la cantidad de registros devueltos en la petición| &limit=50|

@@ -31,6 +31,9 @@ Entre otras cosas podrás integrar y/o controlar.
 de que le falte información desde su integración, favor de alimentar la información de forma manual a través de las plantillas.
 - Para el caso de ERPs,CRMs y otros products especializados es necesario que integres un conector (plugin), como mecanismo de comunicación entre las plataformas y los datos de nuestros clientes, puedes ver mayor información en el siguiente [enlace](https://github.com/hvalles/plugin-mks)
 
+### Playground
+- [Mostrar llamadas y sus resultados](https://sandbox.marketsync.mx/playground/index)
+
 ### Ver a continuación
 - [Servidor de Pruebas](/links/server.md)
 - [Obtención de juego de llaves](/links/keys.md)

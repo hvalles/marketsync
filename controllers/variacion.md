@@ -39,6 +39,10 @@ Se utiliza en la creación de nuevas variaciones
 |**imagen4**|string(250)|:heavy_check_mark:|URL de imagen adicional, puede enviar vacio ('') de no tener la información|
 |**imagen5**|string(250)|:heavy_check_mark:|URL de imagen adicional, puede enviar vacio ('') de no tener la información|
 |**imagen6**|string(250)|:heavy_check_mark:|URL de imagen adicional, puede enviar vacio ('') de no tener la información|
+|**imagen7**|string(250)|:x:|URL de imagen adicional, puede omitir o enviar vacio ('') de no tener la información|
+|**imagen8**|string(250)|:x:|URL de imagen adicional, puede omitir o enviar vacio ('') de no tener la información|
+|**imagen9**|string(250)|:x:|URL de imagen adicional, puede omitir o enviar vacio ('') de no tener la información|
+|**imagen10**|string(250)|:x:|URL de imagen adicional, puede omitir o enviar vacio ('') de no tener la información|
 |**bullet1**|string(250)|:heavy_check_mark:|Cadena de información adicional que se despliega como bullet, acepta vacío ''|
 |**bullet2**|string(250)|:heavy_check_mark:|Cadena de información adicional que se despliega como bullet, acepta vacío ''|
 |**bullet3**|string(250)|:heavy_check_mark:|Cadena de información adicional que se despliega como bullet, acepta vacío ''|

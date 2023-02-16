@@ -51,7 +51,7 @@ Respuesta:
 - **ruta** se refiere al path completo desde el orgigen hasta el último nivel.
 - **permite_variacion** se refiere si la categoría permite variaciones en el producto.
 
-- **filtros**, en caso de que aplique se refieren a una subcategoría administrable para ClaroShop.
+- **filtros**, en caso de que aplique se refieren a una subcategoría administrable para ClaroShop [Deprecated].
 - **timestamp** es la fecha y hora de la respuesta en formato YYYY-MM-SS HH:mm:ss
 
 
@@ -126,7 +126,7 @@ Devuelve un conjunto de atributos válidos de acuerdo a cada categoría en donde
 - **relevancia**, importancia del mismo relevancia=1 es mandatorio
 - **tipo_valor**, tipo de valor que se almacena boolean es mandatorio
 - **tipo_long_max**, en caso de ser string el tipo_valor aplica conmo restricción en longitud
-- **variacion**, en caso del que el atributo corresponda a una variación (no se admitira como atributo de producto).
+- **variacion**, en caso del que el atributo corresponda a una variación (no se admitira como atributo de producto [0=producto, 1=variación, 2=combinación]).
 - **valores** es un listado de valores válidos
 - **unidades**, en caso de ser un atributo de métricas, establece las unidaded validas que deberan acompañar al valor real, ejemplo en caso de la unidad = "cm" el valor esperado es un numero + espacio + unidad es decir "10 cm"
 

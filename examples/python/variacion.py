@@ -1,4 +1,5 @@
 import requests
+import sys
 import utils # Review config.example file and rename it to config.py, do not forget to erase your keys.
 
 # Get Variacion uncomment next 2 lines for testing
@@ -8,8 +9,8 @@ import utils # Review config.example file and rename it to config.py, do not for
 utils.init()
 
 v = {}
-v['product_id'] = 163766
-v['sku'] = '9815-1'
+v['product_id'] = 306257
+v['sku'] = '9815-2'
 v['color'] = "Negro Noche"
 v['base'] = "Negro".upper() # ;ist be upper case
 v['stock'] = 0
@@ -25,15 +26,23 @@ v['bullet2'] = 'Lorem Ipsum has been the industry s standard dummy text ever sin
 v['bullet3'] = ''
 v['bullet4'] = ''
 v['bullet5'] = ''
+# Opcionales
+#v['gtin'] = '9856472536978'
+#v['talla'] = ''
 
 v['atributos'] = [
-    {'atributo':'EAN', 'valor': '9856472536978'},
-    {'atributo':'SELLER_SKU', 'valor' : '9815-1'}
+    {'atributo':'GTIN', 'valor': '9856472536978'},
+    {'atributo':'SELLER_SKU', 'valor' : '9815-1'},
+    {'atributo':'SIZE', 'valor' : '24'},
+    {'atributo':'COLOR', 'valor' : 'BLANCO'},
+    {'atributo':'MAIN_COLOR', 'valor' : 'BLANCO'}
 ]
 
 items=[v]
 utils.getAnswer(utils.getUrl('variacion?'), requests.post, items)
 
+
+sys.exit(0)
 
 # PUT Variacion 
 

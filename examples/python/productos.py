@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import requests
+import sys
 import utils # Review config.example file and rename it to config.py, do not forget to erase your keys.
 
 
@@ -25,7 +26,7 @@ p['largo'] = 20 # Centimeters deep
 p['peso'] = 1 # Kilograms deep
 p['sku'] = '88963-1'
 p['dias_embarque'] = 5 
-p['categoria_id'] = 16431 # ACCESORIOS PARA VEHICULOS/HERRAMIENTAS/ADHESIVOS/
+p['categoria_id'] = 14833  # ACCESORIOS PARA VEHICULOS/HERRAMIENTAS/ADHESIVOS/
 p['filtro_id'] = '' # Empty value
 p['marca'] = "New Wave"
 p['etiquetas'] = "Test,API"
@@ -48,13 +49,15 @@ atributos = []
 atributos.append({'atributo' : 'BRAND',           'valor' : 'New Wave'})
 atributos.append({'atributo' : 'ITEM_CONDITION',  'valor' : 'Nuevo'}) # New
 atributos.append({'atributo' : 'MODEL',           'valor' : 'T-1000'}) # New
-atributos.append({'atributo' : 'SELLER_SKU',      'valor' : '88963-1'}) # ParentSku
 atributos.append({'atributo' : 'IS_KIT',            'valor' : 'No'}) # Sí/No
 
 p['atributos'] = atributos
 items = [p]
 
-#utils.getAnswer(utils.getUrl('productos?'), requests.post, items)
+utils.getAnswer(utils.getUrl('productos?'), requests.post, items)
+
+
+sys.exit(0)
 
 ############### Actualización de Productos PUT
 utils.init()

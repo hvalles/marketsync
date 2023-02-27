@@ -41,15 +41,12 @@ v['atributos'] = [
 items=[v]
 utils.getAnswer(utils.getUrl('variacion?'), requests.post, items)
 
-
-sys.exit(0)
-
 # PUT Variacion 
 
 utils.init()
 v = {}
-v['product_id'] = 163766
-v['sku'] = '9815-1'
+v['product_id'] = 306257
+v['sku'] = '9815-2'
 v['color'] = "Negro Noche"
 v['base'] = "Negro".upper() # ;ist be upper case
 v['stock'] = 0
@@ -66,9 +63,15 @@ v['bullet3'] = 'Lorem Ipsum Text'
 v['bullet4'] = ''
 v['bullet5'] = ''
 
+v['gtin'] = '9856472536978'
+v['talla'] = '24'
+
+
 v['atributos'] = [
-    {'atributo':'EAN', 'valor': '9856472536978'},
-    {'atributo':'SELLER_SKU', 'valor' : '9815-1'}
+    {'atributo':'GTIN', 'valor': '9856472536978'},
+    {'atributo':'SELLER_SKU', 'valor' : '9815-1'},
+    {'atributo':'COLOR', 'valor' : 'BLANCO'},
+    {'atributo':'SIZE', 'valor' : '24'},
 ]
 
 items=[v]

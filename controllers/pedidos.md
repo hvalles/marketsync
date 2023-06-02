@@ -148,6 +148,7 @@ Respuesta:
 - **estatusguia** 
 - **orden_id** Identificador de su orden interna para procesamiento.
 - **shipping_id** Consolidador de ordenes de Mercado Libre.
+- **es_estatus** Estatus de EasyShip de pedidos de amazon.
 - **fecha_orden** fecha de creación dela orden
 - **fecha** fecha de última actualización de la orden
 - **market** 
@@ -202,6 +203,7 @@ Se utiliza en la creación de nuevos pedidos, en MarketPlace WEB
 |**guias**|string(100)|:heavy_check_mark:|Número de Guía|
 |**orden_id**|integer|:heavy_check_mark:|Identificador de su orden interna para procesamiento.|
 |**shipping_id**|string(20)|:heavy_check_mark:|Consolidador de ordenes de Mercado Libre.|
+|**es_estatus**|string(20)||Estatus de EasyShip Amazon (sólo de lectura).|
 |**fecha_orden**|datetime|:heavy_check_mark:|fecha de creación dela orden|
 |**fecha**|datetime|:heavy_check_mark:|fecha de última actualización de la orden|
 |**lineas**|array|:heavy_check_mark:|Conjunto de renglones del pedido|

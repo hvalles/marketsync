@@ -4,7 +4,7 @@
 [Inicio](https://github.com/hvalles/marketsync)  
 [Controladores](/links/controller.md)
 
-El controlador se utiliza para actualizar la Ubicación y el Stock de las variacionesç
+El controlador se utiliza para actualizar la Ubicación y el Stock de las variaciones
 > :information_source: Importante
 > La ubicación que se obtiene al entrar un pedido se refiere a la última entrada de la misma con stock mayor que cero y
 solamente se recupera a través del API de pedidos
@@ -70,7 +70,7 @@ Respuesta:
 ```
 
 - **id** es el identificador del registro.
-- **sku** es el sku del sku hijo.
+- **sku** es el sku de la variación.
 - **stock** cantidad de stock actual de la variación
 - **ubicacion** Ubicacion del existencia del producto
 - **actual** Timestamp de actualización

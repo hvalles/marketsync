@@ -48,7 +48,7 @@ Se utiliza en la creación de nuevas variaciones, debe devolver las variaciones 
 |**bullet3**|string(250)|:heavy_check_mark:|Cadena de información adicional que se despliega como bullet, acepta vacío ''|
 |**bullet4**|string(250)|:heavy_check_mark:|Cadena de información adicional que se despliega como bullet, acepta vacío ''|
 |**bullet5**|string(250)|:heavy_check_mark:|Cadena de información adicional que se despliega como bullet, acepta vacío ''|
-|**atributos**|array|:heavy_check_mark:|(deprecated) conjunto de atributos exclusivo de variaciones, la presencia del UPC o EAN es mandatoria en los atributos |
+|**atributos**|array|:heavy_check_mark:|conjunto de atributos exclusivo de variaciones, la presencia del UPC o EAN es mandatoria en los atributos |
 |**atributos.atributo**|string(50)|:heavy_check_mark:|Clave del atributo, revise el controlador de categorias en atributos|
 |**atributos.valor**|string(50)|:heavy_check_mark:|Valor del atributo|
 

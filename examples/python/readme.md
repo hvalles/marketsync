@@ -21,7 +21,7 @@ en resumen se concatenan los parametros en formato url y ordenados alfabeticamen
 
 El token es la llave pública que se utiliza aora identificar al usuario correspondiente.
 
-Es importante que la cadena a firmar no contenga el elemto signature antes de la firma, posteriormente se concatena al final del URL de la sigioemnte forma "&signamure=YOUR_HASH_CODE_HERE"
+Es importante que la cadena a firmar no contenga el elemto signature antes de la firma, posteriormente se concatena al final del URL de la siguiente forma "&signamure=YOUR_HASH_CODE_HERE"
 
 ```python
 # Se obtiene la firma de seguridad

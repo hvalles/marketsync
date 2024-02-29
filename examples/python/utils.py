@@ -39,9 +39,9 @@ def getAnswer(url, accion, data=None):
 
     print "******************************************"
     try:
-        print r.text
+        print (r.text)
     except:
-        print  ''.join([i if ord(i) < 128 else ' ' for i in r.text])
+        print  (''.join([i if ord(i) < 128 else ' ' for i in r.text]))
 
 # Initialize Prameters
 init()
